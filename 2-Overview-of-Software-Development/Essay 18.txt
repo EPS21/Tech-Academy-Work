@@ -1,0 +1,9 @@
+First Generation (1GL) - The earliest machine code when people directly programmed the 1's and 0's into a computer.
+
+Second Generation (2GL) - Assembly language that has more simple commands but represented as some words and characters. Assembly is then converted into machine language.
+
+Third Generation (3GL) - These are the first higher level languages, that has actual words and commands to instead of just numbers and characters to program with, which have easier to understand syntax.
+
+Fourth Generation (4GL) - Higher level languages that even closer represent human languages, these languages are typically used to access databases like SQL.
+
+Fifth Generation (5GL) - Some sort of experimental programming languages used in neural networks and AI, to imitate how the human mind works. 

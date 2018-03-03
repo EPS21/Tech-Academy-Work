@@ -1,0 +1,11 @@
+a. What do you want to do once you've completed your training?
+After I complete my training, I hope in a timely fashion I can start my career somewhere as a junior software developer. After working for a little while whatever I may be doing, I could then move on to other opportunities when they arise and work on something more in line with what appeals to me to in this field.
+
+b. What do you hope to achieve by undergoing this training? 
+Not only to land a job, but I also want that baseline foundation in programming to be able to create my own applications and to have that skill to be able to have an idea for a computer program/website/app and make it a reality. There is a lot of freedom too compared to some traditional lines of work this field has to offer, as many people have made it by making a successful application, or freelancing from anywhere, can give one an additional stream of income.
+
+c. What does it mean to "think like a programmer"?
+To think like a programmer to me, is because of how computers work and operate in completely discrete and logical ways, therefore to think like a programmer you must have the mindset where any bugs or issues you encounter, there are no illogical reasons as to why its happening, the computer is doing exactly what it is told, so the issue lies between the keyboard and chair so to speak. Human beings tend to think illogically sometimes so it is can be a tall order. Not only that, but working as a team of programmers and being able to communicate and split up work to take advantage of the best of everyone's abilities, although not specifically a computer programmer only mindset, is another good way to think like one.
+
+d. What area of the software development industry most appeals to you and why?
+I'm an avid gamer so the games industry has always appealed to me since I was a kid, so being able to work in that and gaming related fields has always been a dream of mine. I also think the realm of artificial intelligence, the self-driving cars, virtual and augmented realities, and what these technologies can do to improve our lives is very interesting to me as well. We want to advance our society and make it better for the future, and new advances in technology and societal systems that embrace its use is the way to go.

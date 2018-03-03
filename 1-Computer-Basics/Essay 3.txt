@@ -1,0 +1,11 @@
+Chip - A small piece of hardware usually fused onto the motherboard for specific instructions or purpose, can be ROM or a processor, meant for high speed but not too versatile in use.
+Circuit - the path of wires or traces that allow the flow of electricity, to power on and off various components and chips.
+CPU - The central processing unit in a computer that is the main powerhouse for running the OS and programs in a computer.
+Data - The 1's and 0's that are stored in various memory components of a computer that make up all the text and files.
+Execute - To run a computer program or instruction set
+File - A specific container of data, that can be stored and altered depending on the type of file.
+Hard Drive - The primary storage device in computers that allow data to be stored and saved, even after it is shut off (non-volatile).
+Hardware - All the physical components and peripherals pertaining to the computer system.
+Programming Language - The set of words, phrases, and characters which are used to make computer programs.
+RAM - Random Access Memory, the volatile memory in a computer that is the fastest way to store memory and read from it later.
+Software - The programs that run on computer hardware to do everything we do on computers, that is stored in various parts of storage and memory.

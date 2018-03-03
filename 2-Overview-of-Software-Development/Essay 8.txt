@@ -1,0 +1,17 @@
+What can you expect in a day of the life of a software developer?
+You can expect doing coding and bug fixes about a quarter of your time, collaborating with other people on technical problems, working with others on project management, testing code and making the tests for them, and finally also helping others in your organization, and learning more and more as you go along.
+
+In addition to writing code, what can you expect to be doing as a working developer?
+As well as writing code, you'll also be documenting your code for others to read, internal and external communicating and setting proper expectations with what is asked of you and successfully communicating with others so everyone in the company is working together in sync.
+
+Why is teamwork vital in the creation of software?
+Because no one person is an island, and knows everything about everything, so to make good technology solutions everyone can contribute and help others what they're best at, to benefit the team as a whole. Not only that but having good teamwork will make your work life go better in general.
+
+When a client lays out specifications for a project, how closely should you follow them?
+Because unless you're the owner, at the end of the day you are working for a client, so no matter what you might think otherwise, you want to create what they asked for, and who knows you might not even be seeing from another perspective why this one way is better than what you think is better.
+
+What are some of the options you have if you hit an impasse as a developer?
+-Research, aka google for solutions to help
+-Take a walk and just step away from the mental block momentarily
+-Work on something else that's easier
+-And ask another developer for help

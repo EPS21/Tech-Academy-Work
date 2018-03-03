@@ -1,0 +1,31 @@
+What is the difference between inner and outer join?
+An Inner join will only connect matching rows in both tables as long as there is a match between the columns. An outer join will connect all the rows regardless if there is a match between the columns in both tables or not. So if both tables have a customerID value set to 1, it will show customerID 1. But if one table has customerID of 2 and the other does not, the inner join will not show customerID 2, but the outer join will.
+
+What is the definition of a key? A key is a constraint on a field in a table, to tell the DBMS this value has a special property, and there are different types of keys for different purposes.
+
+What are the differences between primary, foreign, and unique keys?
+The primary key is used to uniquely identify each record in a table, so no duplicate records can be made. A foreign key is field in one table that refers to another key in another table, usually the primary key. A unique key is like the primary key, but it can be used in more than one column in a table, and can also take a null value, although only one because one null value is unique and can't have another. 
+
+Why would you have a key that references one table used in another table?
+You use a key that references one table in another because that is how you get the other information related to that key reference from another table that does not exist in the first table you have. It is how you cross reference multiple tables in a single SELECT statement.
+
+What is the definition of a natural key? Give an example of a natural key.
+A natural key is the use of a unique or primary key that reflects real life data. For example, the CIA has a database on every individual in the country, and in that database a social security number could be used as a unique or primary key on that table of people, so you can't have two different people with the same SSN. SSN exist and mean something in real life outside of that database, thus it is a natural key.
+
+What is a simple key in a DBMS?
+A simple key is a key constraint listed in only one column. As opposed to a composite key, where multiple column values are used to make up the key identifier. The key's we made in all our database exercises so far have been simple keys.
+
+What is the definition of a secondary key?
+If a table has multiple candidates for a primary key, then the one(s) not chosen would be secondary keys.
+
+What is the definition of a superkey? Provide an example of a superkey.
+A superkey is a composite key where multiple candidate keys are put together in a set to even more make sure a key value is unique. For example, and EmployeeID, SSN, and a Birthday column could combine and be made into a superkey.
+
+What is referential integrity?
+Referential integrity is when tables refer to each other by primary and foreign keys, if either of these fields are changed, they must be updated on both tables to reflect that change, or not at all, or else if one table had changed without the other, the integrity of what is being referred to has changed and therefore not consistent anymore.
+
+What is the difference between the having clause and the where clause?
+When you use an aggregate function like count(), sum(), etc, you have to use GROUP BY on the columns affected and then use HAVING if you have a conditional. If you aren't using those functions and just selecting some columns, then WHERE will suffice.
+
+How do database indexes work? How do indexes help?
+Database indexes work by looking where relevant data is, so that in your conditional statement like WHERE in a search, it does not need to traverse the entire database which can take a lot of time in a larger db. 

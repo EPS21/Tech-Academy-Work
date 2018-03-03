@@ -1,0 +1,10 @@
+1. Define these terms in your own words:
+-SQL - Structured Query Language, the language used to handle data in a database which has become the standard in database management systems.
+-SQL Server - Microsoft's version of a database management system, you can login into your system or another computers system and their databases. It is a suite of software that can be extended upon with other extensions.
+-MySQL - An open source RDBMS that is free to use, and popular among developers.
+
+2. What is the difference between a "database" and a "database management system"?
+A database is just an organized collection of data, but in order to do any actions on it you need the database management system, which itself is a collection of software in a suite using SQL that can interact with the database.
+
+3. What is a "database-driven website"? Turn this essay in to your Instructor.:
+A database-driven website is the opposite of a static-website, where information on the website can change when changes to the database(s) have occured, without the need for manually editing the webpages themselves. This is a key way in making dynamic webpages work.

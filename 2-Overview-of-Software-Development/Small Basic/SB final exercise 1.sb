@@ -1,0 +1,15 @@
+TextWindow.ForegroundColor = "Yellow"
+TextWindow.BackgroundColor = "Blue"
+TextWindow.WriteLine("Enter number 1: ")
+a = TextWindow.ReadNumber()
+TextWindow.WriteLine("Enter number 2: ")
+b = TextWindow.ReadNumber()
+
+If (a < b) Then
+  TextWindow.WriteLine("The first inputted number '" + a + "' is smaller")
+ElseIf (a > b) Then
+  TextWindow.WriteLine("The second inputted number '" + b + "' is smaller")
+Else
+  TextWindow.WriteLine("Both numbers are equal")
+EndIf
+  

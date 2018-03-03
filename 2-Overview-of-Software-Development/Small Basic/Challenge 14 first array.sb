@@ -1,0 +1,19 @@
+TextWindow.WriteLine("enter some values into this array mon")
+
+For a = 1 To 5
+  TextWindow.WriteLine("please input a value")
+  Array[a] = TextWindow.Read()
+  TextWindow.WriteLine("value " + a + "/5 stored.")
+EndFor
+
+TextWindow.Write("The value in this array are... ")
+
+For a = 1 To 5
+  TextWindow.Write(Array[a])
+  Program.Delay(250)
+  If a < 4 Then    
+    TextWindow.Write(", ")
+  ElseIf a < 5 then
+    TextWindow.Write(" and ")
+  EndIf
+EndFor

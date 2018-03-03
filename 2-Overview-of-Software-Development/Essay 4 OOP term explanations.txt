@@ -1,0 +1,12 @@
+-What is a "class"? A category, or a type of a potential thing that you make in programming.
+-What is an "object"? The thing substantiated from your class, and has a certain type.
+-What is an "instance"? When you create something that is based off your class, it is an instance of that class.
+-What is a "constructor"? The special attributes you initially programmed in the class of an object, to be able to create it.
+-What is "state" versus "stateless"? The difference between objects, files and websites that have dynamic or static properties.
+-What is "encapsulation"? When you hide away the implementation from the user, and so that nothing else outside can interfere with it.
+-What is "inheritance"? When a new class is created that has attributes based on a previously existing class.
+-How is the parent/child relationship used in programming? Like with inheritance, this relationship mostly has to do with classes, and a child class inherits some attributes based on the parent class, while the child class can have some new attributes as well.
+-What is "composition/aggregation"? When you take two or more classes of objects to create a new object altogether.
+-What is "polymorphism"? Behaviors you find in one class, can be inherited and used in other classes or child classes.
+-What is an "index"? A pointer to where a thing, the data is. Like in an array, an index of 0 would be the first item in that array.
+-What is a "loop"? To go through a set of data, and execute some command to every iteration of data in that set, until some condition is met, or indefinitely.

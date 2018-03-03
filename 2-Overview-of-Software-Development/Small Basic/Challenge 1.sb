@@ -1,0 +1,6 @@
+TextWindow.WriteLine("Hello World!")
+TextWindow.BackgroundColor = "Yellow"
+TextWindow.ForegroundColor = "Blue"
+TextWindow.WriteLine("Press something please")
+TextWindow.Pause()
+TextWindow.WriteLine("Hello again World!")

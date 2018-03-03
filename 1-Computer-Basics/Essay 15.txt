@@ -1,0 +1,7 @@
+BMP: Stands for BitMaP. A type of file type for saving images to a computer.
+Byte: A binary number up to 8 places, the smallest unit of storage a computer stores, only thing smaller is a bit, a single one or zero.
+Data format: The way a set of data is organized, so the computer knows how to display and interpret this data.
+File format: The specific sets of data that are saved into units called files, and can denote what programs or operations to open when working with these file formats.
+Flag: A condition in which a program is looking for specific data, and once it finds whatever the condition is, will trigger another set of code meant to work with that data.
+Source code: The code that makes a computer program run, and do its basic functions. When the programs source code is finished, it is usually converted in a way that makes it faster to run on a computer, but can't be edited by other programmers later on.
+Streaming: When you download a file from another computer, and use some of the information as it arrives instead of waiting to download the entire file to then use it. Most often used for viewing media in which you watch/listen from the beginning, while the rest downloads subsequently.

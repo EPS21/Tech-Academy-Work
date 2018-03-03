@@ -1,0 +1,17 @@
+-What does “abstract data type” mean?
+The description of a type of data, its structure, and how it behaves, but does not include how you implement how to get that data to behave that way.
+
+-What does “data structure” mean?
+A data structure is a collection of data values, the relationships between them, and the different operations that can be applied to the data.
+
+-What does “Push” and “Pop” mean?
+Push means adding an item to the top of the stack, and Pop means to remove an item from the top of the stack.
+
+-What does “FIFO” and “LIFO” mean?
+FIFO stands for 'First In First Out', and LIFO means 'Last In First Out.' Pushing something to the top of the stack, and then working on that item first before the others, would be an example of LIFO.
+
+-What is a “Queue”?
+A queue is a line, like when you wait in line for at the supermarket for your turn to buy groceries. In computer programming, a queue is an abstract concept for a data type, that describes the structure and behavior of the data. So in a queue items in the front of the queue are processed first, and items added to it go to the end, just like in a real queue.
+
+-What does “I/O” mean?
+I/O stands for "input/output." Data you or the user put into a program is input, and what the program does with that data and how it uses it in the end is the output.

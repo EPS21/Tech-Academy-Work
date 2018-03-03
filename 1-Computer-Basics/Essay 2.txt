@@ -1,0 +1,8 @@
+RAM is short for Random Access Memory. It is volatile, only holding data as long as the computer is powered on, and what the OS and programs are loaded onto as these RAM chips installed on the motherboard are the fastest components outside the CPU that data can be changed while the computer is running. They are typically 3-4" long, green, sometimes with a heatsink enclosures in desktop computers with hundreds of connectors to allow the highest bus speed possible.
+
+The CD-ROM drive stands for Compact Disc-Read Only Memory, is a 5.25" wide rectangular device installed in PCs (laptops can have as well, and are smaller) that reads (others write to as well, also to DVD/BD) compact discs. These discs
+retain their information on the disc even after the computer is shutdown, or ejected and is thus an example of non-volatile memory.
+
+The CPU, central processing unit is the main device that runs computer programs and instructions, and does so sequentially, one instruction at a time. They're typically very small, as a result of their architecture and transistors that today are on the nano level, fitting millions of these into a small single package. Most modern CPUs have multiple cores and threads, to be able to process multiple streams of information and programs at once.
+
+The power supply changes the power supplied from the wall into direct current that is split up into different levels of voltage (typically 12v, -12v, 5v, 3.3v,) in which every component in the computer will have appropriate power to function. They are another component installed in desktop computers, with various wires to power every component inside there. 

@@ -1,0 +1,11 @@
+-Database
+A table made up of columns and rows that holds data in fields, with some corresponding reason as to what those rows and columns represent to have some cohesive data, in a computer. Many people are familiar with microsoft excel spreadsheets for making tables like databases.
+
+-DBMS
+A DataBase Management System, a set of software to manage databases with. There are many different types of DBMS.
+
+-Business Intelligence
+In businesses, the act of taking all the raw data they collect as a business, and extrapolating it into something useful to give them some knowledge to be an advantage in their market.
+
+-RDBMS
+Stands for Relational DataBase Management System, which can relate to different tables of data with one-to-one/many and vice versa, and use unique, primary, and foreign keys to maintain data integrity among different tables and databases.

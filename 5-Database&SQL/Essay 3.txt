@@ -1,0 +1,9 @@
+-BIT - Integer that can be 0, 1, or null
+-CHAR - A fixed length string
+-DATETIME - a datatype that stores the date and time
+-FLOAT - a small number with a floating decimal point
+-Foreign key - A foreign key is how you get values from one table to reference data on another table. The foreign key I believe needs to reference the primary key of the other table in order to work.
+-INT - datatype for non-decimal point numbers
+-LONG VARCHAR - for storing text much longer than VARCHAR normally allows
+-Primary key - used to ensure uniqueness in a column of a table, most often used as an ID column in a table, so that when query's point to somewhere in a database there is no ambiguity in what it is selecting. Can be auto-incremented as new entries are added to the table.
+-SMALL INT - like INT but more restricted in minimum and maximum number allowed but takes up less space in memory.

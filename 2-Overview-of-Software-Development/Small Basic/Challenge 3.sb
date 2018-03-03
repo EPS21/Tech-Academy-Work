@@ -1,0 +1,8 @@
+TextWindow.Title = "End of Section Challenge #3"
+TextWindow.Top = 0
+TextWindow.Left = 200
+Number_1 = 0
+TextWindow.WriteLine("Hello, the variable's current value is: " + Number_1)
+TextWindow.WriteLine("What new value would you like to set it to?")
+Number_1 = TextWindow.Read()
+TextWindow.WriteLine("The variable's current value is now: " + Number_1)

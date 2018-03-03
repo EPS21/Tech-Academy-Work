@@ -1,0 +1,11 @@
+What is Version Control?
+Version Control is the process in which programmers can organize each new revision of code they make, to save multiple versions and be able to make changes and continue on multiple timelines of code, with how branching works.
+
+How does Distributed Version Control differ from Centralized Version Control?
+In a centralized VC, there is only one main repository, and is usually stored on a server or central computer on a network. In these systems, users typically have to "check out" a file before they work on it, so no one else simultaneously tries to work on that same file as well, and have to wait for original user to check it back in. In Distributed VC, every person contributing to the program has their own local repository on their hard drive, so they can edit and branch code on their own, then push their changes to the main repository like on GitHub, and don't have to do that checking in and out stuff.
+
+What benefits are there in understanding Git, GitHub and version control in general?
+The benefits to knowing Git and GitHub is that you or groups of people can make and keep track of changes to files without having to save a million versions of the file or program with different names or dates, its all tracked for you with these. You can also make different timelines with branching, and go back and forth to different versions of code, or combine changes from one timeline into another or the main one. Lastly, it is a way to easily upload all those changes in one area to backup and where everyone can see when and what got changed.
+
+How can you use these tools as a software developer?
+These tools will help in making revisions of code without needing to save multiple versions of files, and also to be able to collaborate and make changes to code with other developers, while still being able to a previous version if necessary. Being able to go back when things go wrong is very valuable as a software developer.

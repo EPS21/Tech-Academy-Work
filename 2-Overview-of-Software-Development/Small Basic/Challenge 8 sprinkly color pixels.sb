@@ -1,0 +1,44 @@
+GraphicsWindow.Height = 500
+GraphicsWindow.Width = 500
+GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+GraphicsWindow.Title = "Challenge 8"
+GraphicsWindow.FontItalic = "True"
+
+r = Math.GetRandomNumber(10)
+GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+GraphicsWindow.PenWidth = 20
+GraphicsWindow.DrawLine(200,200,300,200)
+
+GraphicsWindow.DrawBoundText(220, 170, 100, "Hi")
+GraphicsWindow.DrawBoundText(250, 170, 200, "There")
+
+For i = 1 To 500 Step 2
+  GraphicsWindow.SetPixel(i , 190 ,"Black")
+  Program.Delay(10)
+  i = i + 1
+EndFor
+
+For i = 1 To 500 Step 2
+  GraphicsWindow.SetPixel(i , 210 ,"Black")
+  Program.Delay(10)
+  i = i + 1
+EndFor
+
+a = 1
+While a > 0
+  x = Math.GetRandomNumber(500)
+  y = Math.GetRandomNumber(500)  
+  GraphicsWindow.SetPixel(x , y , GraphicsWindow.GetRandomColor())
+EndWhile
+
+
+
+
+
+
+
+
+
+
+
+  

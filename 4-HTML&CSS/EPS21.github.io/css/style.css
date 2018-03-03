@@ -1,0 +1,47 @@
+body {			
+	background-color: #fff;
+}
+
+nav {
+	position: fixed !important;
+	width: 100%;
+	z-index: 100;
+}
+
+h1 {
+	text-align: center !important;
+}
+
+header {	
+	text-align: center;
+	background-attachment: scroll;
+	background: url(../img/cover.jpg) no-repeat;
+	/*background-position: center center;*/
+	background-size:cover; /*autoscales image*/		
+	width: 100%;
+	/*display: block;
+	height: auto;*/
+	padding-top: 375px;
+	padding-bottom: 425px;
+	color: #fff;
+}
+
+.head-main {	
+	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+	font-variant: small-caps;
+	color: #fff;
+	letter-spacing: 5pt;
+	word-spacing: 21pt;
+	font-size: 4.5em;
+	text-align: center;
+	font-family: impact, sans-serif;
+	line-height: 2;
+    font-weight: 100%;
+    padding: 10px;
+	width: 100%
+}
+
+.container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

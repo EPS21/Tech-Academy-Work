@@ -1,0 +1,7 @@
+Backup - To duplicate data and store it elsewhere, for the express purpose of saving it in the event the original copy gets destroyed.
+Cache - Saved data stored in various local areas so when to be recalled again it is quicker to retrieve than where its source was.
+Cloud Computing - Running your programs from an external computer rather than your own and still controlling some aspect of it from your own. Will also use some part of cloud storage usually.
+Cookie - Files saved to your computer from websites, so that next time you visit it it can remember your preferences and settings.
+Sharepoint - Microsoft's cloud software that business can use to access their documents, and coordinate all their users easier.
+Source - The origin of something, or in business, where they locate goods and services to use for their business.
+Word Processing - The program you typed all your essays on while you were in school. And everyone uses it to make basic text documents.

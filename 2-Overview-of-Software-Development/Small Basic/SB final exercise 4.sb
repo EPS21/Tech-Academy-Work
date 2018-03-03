@@ -1,0 +1,20 @@
+London()
+TextWindow.WriteLine("The current hour in London is " + LondonTime)
+
+If (LondonTime < 9) Then
+  TextWindow.WriteLine("The London branch is closed. Copying file...")
+  File.CopyFile("C:\Folder 1\file.txt", "C:\Folder 2\")
+ElseIf (LondonTime > 21) then
+  TextWindow.WriteLine("The London branch is closed. Copying file...")
+  File.CopyFile("C:\Folder 1\file.txt", "C:\Folder 2\")
+Else
+  TextWindow.WriteLine("The London branch is open. File won't be copied.")
+EndIf
+
+Sub London
+  If ((Clock.Hour - 16) <= -1) Then
+    LondonTime = (Clock.Hour - 16) + 24
+  Else
+    LondonTime = (Clock.Hour - 16)
+  EndIf
+EndSub

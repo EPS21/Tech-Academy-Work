@@ -1,0 +1,9 @@
+Antivirus software: Software installed on computers to scan for and prevent virus and all the other bad unintended programs out there from being installed on your computer.
+Corruption: When from a software or hardware error occurs in the writing of data, then when that data is recalled it cannot be processed normally.
+Fatal error: An error in a program that when it occurs, forces the program to be unable to continue running, and will freeze or shut it down.
+Phishing: A program, person, email, etc. who pretends to be someone else in order to trick the user for information, which can be used maliciously later.
+Plagiarism: Copying of information from someone else and passing it as your own.
+Secure password: A password that cannot be easily guessed, or brute forced from a hacking attempt.
+Trojan: A program that is intended to look like one thing, but when installed will do another, usually in a malicious way to steal sensitive information.
+VPN: Short for Virtual Private Network, a special network that can allow verified users outside of an organizations local network, to access files and information from that network over the internet.
+Worm: A computer program that can replicate itself from one computer to the next and can keep spreading to more computers.

@@ -1,0 +1,14 @@
+First_Number = 5
+Second_number = 10
+Third_number = 15
+Fourth_number = 20
+Fifth_number = 50
+Sixth_number = 16
+TextWindow.WriteLine(Second_number + Third_number)
+TextWindow.WriteLine(25 - First_Number)
+
+TextWindow.WriteLine(Math.GetRandomNumber(100))
+TextWindow.WriteLine(Math.GetRandomNumber(100))
+TextWindow.WriteLine(Math.GetRandomNumber(100))
+TextWindow.WriteLine(Math.GetRandomNumber(100))
+TextWindow.WriteLine(Math.GetRandomNumber(100))

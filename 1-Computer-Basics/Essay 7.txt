@@ -1,0 +1,6 @@
+Client - The person/computer who connects to a web server that is hosting a website, and downloads their pages/files.
+DSL - Digital Subscriber Line, a type of high speed internet that uses telephone lines to connect to.
+Ethernet - A protocol for how computers are connected to each other to transmit data from one to another.
+IP Address - A specific string of numbers that acts as an identifier for computers connecting to the internet.
+Modem - The device that modulates and demodulates electronic signal, and for computers it will take a signal or packet of information from the computer, modulate it into a constant signal that is sent outside over phone lines or whatnot, and can be demodulated by another modem to the computer can receive that signal without (hopefully not much) change.
+Router - A dedicated device that can connect to a modem, receive and send information to it, and distribute it to and from various computers and devices connected to it. Most modern routers support both wired and wireless connections to it.

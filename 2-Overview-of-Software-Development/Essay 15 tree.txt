@@ -1,0 +1,8 @@
+a. What is a “tree”?
+A tree is a non-linear data structure, where data will branch out from a root node into further subtrees and nodes, until there are no more further nodes once you reach the leaf nodes. A tree structure is kind of like the file folder structure in your computer, where from the main hard drive (the root node) files act as subtrees and can have more folders in them to branch out more, until you reached the last folder.
+
+b. What is an “identifier”?
+An identifier is a descriptive name given to a particular address in memory, so you can refer to that location by a higher-level name rather than where it is specifically held in memory, which is lower-level and harder for us to understand.
+
+c. What is the definition of a “constant”?
+A value that remains the same and does not change throughout the whole time the program is running, not like a variable which can change its value depending on what the program does to it.

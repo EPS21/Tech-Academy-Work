@@ -1,0 +1,30 @@
+GraphicsWindow.Height = 500
+GraphicsWindow.Width = 500
+GraphicsWindow.FontSize = 50
+London()
+
+Controls.ButtonClicked = copyFile
+
+button = Controls.AddButton("COPY THAT FILE!!", 10, 10)
+Controls.SetSize(button, 480, 480)
+
+Sub copyFile
+  If (LondonTime < 9) Then
+    File.CopyFile("C:\Folder 1\file.txt", "C:\Folder 2\")
+    GraphicsWindow.ShowMessage("The file was successfuly copied","London is closed")
+  ElseIf (LondonTime > 21) then
+    File.CopyFile("C:\Folder 1\file.txt", "C:\Folder 2\")
+    GraphicsWindow.ShowMessage("The file was successfuly copied","London is closed")
+  Else
+    GraphicsWindow.ShowMessage("The file was not copied, because London branch is still open","London is open")
+  EndIf
+EndSub
+
+Sub London
+  If ((Clock.Hour - 16) <= -1) Then
+    LondonTime = (Clock.Hour - 16) + 24
+  Else
+    LondonTime = (Clock.Hour - 16)
+  EndIf
+EndSub
+  

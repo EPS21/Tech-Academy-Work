@@ -1,0 +1,19 @@
+Bandwidth - The speed at which data is transferred from computer to computers, or over the internet.
+Code - What you type into computer to make a computer program
+CSS - Cascading Style Sheets, used to control what a webpage looks like with backgrounds, text, images etc. Changing the settings here let you change all the pages on the website, instead of just on a single page.
+DNS - Domain Name System, the naming system for computers connected to the internet, represented in numbers.
+Domain - The categories for different kind of websites, like .com, .net, .edu etc
+Download - The transfer of file(s) from another computer on the network or the internet to your computer.
+Host (Hosting) - The person or organization who runs the computer(s) that act as web servers.
+HTML - the computer language that describes what the website looks like and how it behaves.
+HTTP - A protocol in which usually webpages are transmitted over the internet.
+Mark-up Language - Various tags written in the webpage html files that will dictate what the text and images will look like, like the fonts, colors, sizes of text etc. Also which URLs are put a hyperlink.
+Mainframe - A large central computer that stores, maintains, and processes a lot of information. 
+Online - The state of having your computer or device connected to a network or the internet.
+Search Engine - A special program that is constantly indexing websites, so that when you input search terms into the search engine, it will pull up sites that match what you are looking for.
+Server - The computer or computers that are running, or hosting webpages and sites that other computers can download and see.
+URL - The name of the website, that you type in your web browser to take you to that page. Like the 'address' of a particular website.
+Web Browser - A computer program you run to be able to visit web pages across the world wide web.
+Web Page - The page that has information, usually in HTML format that you go to on a web server when that specific URL is entered, or from a hyperlink.
+Website - the main URL you access, which usually leads to some home page of a company's server, for which its subsequent web pages will be found.
+World Wide Web (www) - All the websites and web pages on the internet.

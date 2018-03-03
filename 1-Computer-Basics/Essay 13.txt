@@ -1,0 +1,11 @@
+Augmented reality - To look at the real world through a computer connected to a camera, like a smartphone, and have a program be able to interpret that data and show some new information based on what its looking at, or to create virtual images that look like they're placed right there in real life through the screen.
+Batch processing - The act of processing many pieces of data at once, and won't begin until all the requisite pieces are collected.
+Bit torrent - A P2P protocol for sharing files among users online, not relying on a central server to distribute the files.
+Characters - An individual letter from the alphabet, a number, special character etc.
+Defragment - When a file is on a hard drive or other storage, it is usually split on to different segments of the platter as its written. Computers can become slower over time when all these files are fragmented all over the place on the platter, so you can Defragment your HDD to reorganize the pieces of the file, so it can all be accessed in one place rather than several.
+Gigabytes (GB) - Stands for one billion bytes, or 1000 megabytes
+HD - Stands for High Definition, used mostly in talking about display resolutions that are at or above 1280x720
+High Res - High Resolution, same kind of thing as HD, large size resolution images or displays.
+QR Code - Stands for Quick Response code, it is like a barcode a camera with the right software can read to generate some text data (usually a URL).
+RSS - Stands for Rich Site Summary. It is a program that lets users have websites that support it, to automatically have that websites content sent to the user, so multiple RSS feeds they subscribe to can be viewed in one place rather than checking many different sites.
+Social Media - The combination of websites that allow users to post pictures, updates, news and trends among other users and friends that make up the new fast paced virtual culture we have become a part of. Social Media sites do not make content on their own, it is all user submitted.

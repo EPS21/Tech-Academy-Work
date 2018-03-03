@@ -1,0 +1,21 @@
+GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+GraphicsWindow.Height = 600
+GraphicsWindow.Width = 605
+rows = 20
+columns = 20
+sides = 25
+
+For a = 1 To columns
+  For b = 1 To rows
+    GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()
+    squares[a][b] = Shapes.AddEllipse(sides,sides)
+    Shapes.Move(squares[a][b], a * sides, b * sides)
+  EndFor
+EndFor
+
+x = 1
+While x > 0
+  GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+  Program.Delay(1000)
+EndWhile
+  

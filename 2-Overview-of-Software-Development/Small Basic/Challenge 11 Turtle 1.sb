@@ -1,0 +1,14 @@
+GraphicsWindow.Width = 500
+GraphicsWindow.Height = 500
+GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+
+Turtle.Show()
+Turtle.X = 230
+Turtle.Y = 230
+
+For i = 1 To 4 Step 1
+  GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+  Turtle.Move(40)
+  Turtle.Turn(90)
+EndFor
+

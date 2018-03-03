@@ -1,0 +1,8 @@
+Bus - A series of interconnected wires, or traces on silicon board, that carry electronic signals (data) and electricity throughout the computer and its components.
+Function - In computers, a command to get something done or accomplished.
+Hub - A central location in which all computers in a network connect to to be able to exchange information. The hub itself can be a computer or a dedicated networking device.
+LAN - Local Area Network, to denote computers that are only connected to each other locally, like in a room or a building.
+Platform - The unique combinations of hardware and operating systems that make up computers, laptops, phones, and nearly every electronic device. Software written for one platform is usually not compatible with another platform.
+Protocol - a set of defined methods for sending data from one computer to the next.
+Ring Network - A type of network where computers are connected in a loop like fashion, connected from one to the next, where information is passed around to the next. Does not require a hub.
+Star Network - A common computer network where computers are connected to a central hub, where it will direct information from one computer to its recipient computer.

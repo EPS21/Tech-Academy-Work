@@ -1,0 +1,33 @@
+Define a dual core processor and a quad core processor.
+A dual, quad, and above core processors have 2, 4, or more actual physical logical CPU's on the same die, and can handle multiple streams of input at the same time, because a single CPU can only process one thing at a time.
+
+Define an Intel “i__” processor.
+This is Intel's current and long running branding for their processors, now recently with their 8th generation offering in the i3/i5/i7 8xxx units. They are usually denoted this way in their performance and price points, with i3 being the mainstream everyday usage cpu, i5 for mid-ranged and gaming usage, and i7 for higher end and more multi-threaded needs. Don't forget AMD too their Ryzen CPU's are pretty good and giving intel a run for its money again, especially in the multi-threaded stuff.
+
+Explain how CPUs affect the computer’s operation.
+CPU's affect the computers operation by how many instructions they can perform per second, as dictated by the clock and clock speeds of the CPU.
+
+Explain how different levels of GB of RAM affects the computer (i.e. the difference between 4GB RAM, 8GB RAM, 16GB RAM, etc.).
+Different levels of RAM affect the computer by how many programs (or more specifically, how many bytes) the computer can store in higher speed RAM memory, as opposed to slower speed storage like the hard drives, thereby limiting how much code can be actively accessed and processed by the CPU at any given time. When you have more RAM, you can have more programs and data in use at a time without slowing down the computer than when you don't have as much RAM.
+
+Define “compiling code”.
+Compiling code is when after writing your code, it is converted from the high-level language of words and characters you typed it in, and then those instructions are converted into machine language and binary that the CPU can interpret to then work with that data.
+
+Define “program flow”.
+Program flow is when programs go along normally in the main flow, and when functions are called, the sub-program that is the function will execute its code, then the program will continue along unless more functions are called.
+
+Explain what happens inside the computer when you write and execute code.
+When you write code and sub-programs like functions, they are stored in memory, and then when it is compiled and executed by the CPU, the program will run like normal, and then when functions are called it will look for that function in memory where it is waiting to be used, to then also be sent to the CPU to be processed.
+
+How the CPU operates taking one command at a time from addresses in memory.
+The CPU has an instruction register, that has the address of where to get data or commands from the program from the RAM, that travels over the address bus to the RAM to be retrieved, and come back via the same bus where the CPU can operate on that data.
+
+Give an example of program flow.
+A program calculating sales tax first takes in necessary data about how much tax there is, and how expensive the item is. Then, when the calculateSalesTax function is called, the program will pause momentarily to pull up this function from memory, and it will take in as arguments the tax rate and item price, and then the function will calculate the amount of sales tax on this item. When this function is finished, the program can resume, and in the end will display the original item price plus the sales tax (that was calculated in the function) and give you your total item price.
+
+Define an “instruction pointer”.
+An instruction pointer is that special instruction register in the CPU, that holds the address of the next instruction in RAM in the program to be executed.
+
+Explain what happens with the CPU when you have it repeat a command.
+If the command is still in memory within the cache of a CPU, it can pull it up directly from there to repeat. Otherwise, it will grab it from the RAM like it did the first time.
+

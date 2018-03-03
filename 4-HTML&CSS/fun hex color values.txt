@@ -1,0 +1,5 @@
+fun hex color values:
+#fff    - white
+#000    - black
+#dedee0
+#a1a1a1

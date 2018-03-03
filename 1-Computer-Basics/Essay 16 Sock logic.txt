@@ -1,0 +1,15 @@
+Algebra: Math that uses both letters and numbers to represent quantities and amounts.
+Branch: One of two or more available courses of actions, based on a conditional statement.
+Increment: To increase a quantity by some amount, usually by 1.
+Initialize: To prepare something for first time use, put it in its proper formats and whatnot.
+Loop: A sequence of instructions that is repeated until a condition is reached that tells the loop to end.
+Optimization: To have something run in the most efficient way. For programs, it could be writing the code in the simplest and thus easiest to process state, for webpages it could be displaying a site with its ideal looks on a multitude of monitor sizes.
+Set: A collection of data, numbers, or things.
+Syntax: The rules of a language of how its structured and used. The same holds true for programming languages, if you misspeak it to the computer it won't understand.
+b. Write out an example algorithm of an every-day task: 
+You go to put on some socks, and you find you only have a single sock in your drawer. The next step is:
+1. Look under drawer to see if other sock has dropped down under there.
+2. If not found there, look in laundry baskets to find missing sock.
+3. If not found there, look in laundry machine where sock was washed and dried to find sock.
+4. If still 404 sock not found error, wear another pair of socks, wear only one sock, or throw away useless single sock. 
+5. End procedure and move on about the rest of your day.

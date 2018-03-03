@@ -1,0 +1,5 @@
+-What is a programming language?
+A programming language are the various ways and methods that the programmer can put in instructions in a higher level language, to be then compiled or interpreted into machine code that the CPU will work with to be able to run the program that was written.
+
+-Why are there different types of programming languages?
+Because different languages are suited and optimized for what the programmer is trying to do and to create. Like how HTML is better suited to static web pages, and javascript is suited for making dynamic content on web pages. Also, some languages are faster in creating certain kinds of programs faster and more efficiently than others, and all are leaps and bounds way faster than trying to do the same in machine code.

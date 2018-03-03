@@ -1,0 +1,5 @@
+TextWindow.CursorTop = 5
+TextWindow.WriteLine("Where do you live?")
+location = TextWindow.Read()
+TextWindow.CursorLeft = 5
+TextWindow.WriteLine("ahaHaHAhAHa I'M COMiNg T0 gEt YOu thErE iN " + location + "!")

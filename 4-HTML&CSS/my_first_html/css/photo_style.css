@@ -1,0 +1,106 @@
+
+.crazy {
+	font-family: wingdings
+}
+
+p {
+	font-family: wingdings;
+	font-size: 50px;
+	font-weight: 300; /*boldness to font*/
+	line-height: 30px; /*space between lines of text*/
+	padding-bottom: 15px; /*space between bottom of image to text*/
+}
+
+.photo {
+	position: relative; /*relative to container*/
+	line-height: 0;
+	margin-bottom: 2em; 
+	overflow: hidden; /*picture and text will stay in container, and not wrap*/
+	border-radius: 8px; /*rounding of border corners*/
+	padding: 1px; /*for inside of element*/
+	border: 1px solid #021a40; /*size, transparency, color*/
+	background-color: #ff0;
+}
+
+.photo-container {
+	text-align: center;
+	margin: 15px auto; /*2nd is right/left, auto will find center and center it*/
+	width: 700px; /*width of photo*/
+	height: 405px; /*height of photo*/
+}
+
+/*selecting the photo in the image*/
+.photo-container img {
+	max-width: 100%; /*will not resize any larger than 100% img size*/
+	width: 700px;
+	height: 405px;
+}
+
+/*overlay with the words*/
+.photo-overlay {
+	color: #fff;
+	position: absolute; /*uses your values only*/
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center; /*for centering text inside .photo*/
+	align-items: center;
+	background: rgba(0,0,0, .5); /*to make some opacity once overlaid*/
+}
+
+.white-head {
+	font-family: wingdings;
+	font-size: 50px;
+	color: #C9BDAA;
+	margin-top: 5%;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+
+/* ===============================
+	Photo Overlay Transitions 
+	==============================*/
+	
+.photo-overlay {
+	opacity: 0; /*0 is transparent, 1 is full*/
+	transition: opacity .1s; /*transition property, duration*/
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*targeting photo overlay paragraph element*/
+.photo-overlay p {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+/*makes overlay appear by mousing over it*/
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+.photo img {
+	transition: transform 1s;
+	transform-origin: 75% 75%; /*angle of perspective*/
+}
+
+/*zooms image in when moused over*/
+.photo:hover img {
+	transform: scale(1.5); /*increases size by 10%*/
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+
+	

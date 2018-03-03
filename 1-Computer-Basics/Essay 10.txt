@@ -1,0 +1,13 @@
+Big data - The maintaining, storage, and use of extremely large quantities of data, so much that not a single computer can handle it but is processed by many many different computers and servers across the cloud.
+Buffer - When a computer cannot process some information or a task immediately, it keeps that piece of data queued up here to be worked on next.
+Bug - An unintentional error in computer programs, caused by faults in the programming.
+Business intelligence - The use of data in various forms to make it useful for businesses. 
+Crowdsourcing - To get help and financing outside of your own or your business' available funds to pursue your goals on any kind of project.
+Export - To take data and files from one computer and send it onto another
+Import - To take data and files from one computer or location and retrieve it onto yours.
+Pixels - Short for picture element, every individual colored dot that makes up all the dots on your computers screen resolution, when all put together makes a larger visible image in the end.
+Raw data - Data that has been received to a computer and not processed and organized by any sort of program yet.
+Refine - To process the raw data into something coherent and usable.
+Resolution - The size in area of an image or screen, higher resolutions lead to more crisp and clear images.
+Upload - To take a file or files and send them to other computers and across the internet.
+Video editing - Editing a video to make a complete and watchable video, after the filming is done.

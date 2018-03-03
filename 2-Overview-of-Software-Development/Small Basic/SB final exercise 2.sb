@@ -1,0 +1,45 @@
+NewYork()
+London()
+TextWindow.WriteLine("The current hour here is " + Clock.Hour)
+TextWindow.WriteLine("The current hour in New York is " + NyTime)
+TextWindow.WriteLine("The current hour in London is " + LondonTime)
+
+If (NyTime < 9) then
+TextWindow.WriteLine("The NY branch is closed")
+  ElseIf (NyTime > 21) then
+    TextWindow.WriteLine("The NY branch is closed")
+  else
+TextWindow.WriteLine("The NY branch is open")
+endif
+
+If (LondonTime < 9) Then
+  TextWindow.WriteLine("The London branch is closed")
+ElseIf (LondonTime > 21) then
+  TextWindow.WriteLine("The London branch is closed")
+Else
+  TextWindow.WriteLine("The London branch is open")
+EndIf
+
+Sub NewYork
+  If ((Clock.Hour + 3) >= 24) Then
+    NyTime = (Clock.Hour + 3) - 24
+  Else
+    NyTime = (Clock.Hour + 3)
+  EndIf
+EndSub
+
+Sub London
+  If ((Clock.Hour - 16) <= -1) Then
+    LondonTime = (Clock.Hour - 16) + 24
+  Else
+    LondonTime = (Clock.Hour - 16)
+  EndIf
+EndSub
+
+  
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+GraphicsWindow.Width = 500
+GraphicsWindow.Height = 500
+GraphicsWindow.MouseMove = a
+GraphicsWindow.MouseDown = b
+GraphicsWindow.MouseUp = x
+GraphicsWindow.KeyDown = y
+GraphicsWindow.KeyUp = z
+
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.PenWidth = (10)
+
+Sub y
+  GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+EndSub
+
+Sub z
+  r1 = Math.GetRandomNumber(500)
+  r2 = Math.GetRandomNumber(500)
+  Picture = Flickr.GetRandomPicture("cars,cheese")
+  GraphicsWindow.DrawResizedImage(Picture, r1, r2, 150, 150)
+EndSub
+
+Sub x 
+  GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+EndSub
+
+Sub b
+  c = GraphicsWindow.MouseX
+  d = GraphicsWindow.MouseY
+EndSub
+
+Sub a
+  e = GraphicsWindow.MouseX - 5
+  f = GraphicsWindow.MouseY - 5
+  If (Mouse.IsLeftButtonDown) Then
+    GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+    GraphicsWindow.DrawLine(c, d, e, f)
+  ElseIf (Mouse.IsRightButtonDown) then
+    GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+    GraphicsWindow.DrawLine(f, e, d, c)
+  EndIf
+EndSub
+
+  
+  
+ 

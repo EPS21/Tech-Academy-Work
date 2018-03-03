@@ -1,0 +1,12 @@
+GraphicsWindow.PenColor = "Red"
+GraphicsWindow.PenWidth = 20
+GraphicsWindow.DrawEllipse(1,1,50,100)
+
+GraphicsWindow.BrushColor = "Yellow"
+GraphicsWindow.FillEllipse(100,200,100,50)
+
+GraphicsWindow.FillTriangle(100,200,150,200,125,150)
+
+triangle = Shapes.AddTriangle(300,0,200,0,150,200)
+Program.Delay(750)
+Shapes.Animate(triangle, 0, 300, 5000)

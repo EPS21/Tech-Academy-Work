@@ -1,0 +1,20 @@
+Define “function”.
+A function is a pre-written sub-program in a program, that was written beforehand by the programmer or another programmer, that runs within the main program, and after it is done running the main program can continue.
+
+Define “calling”.
+To run a certain function or sub-program within a program.
+
+Define “method”.
+Same as function, a sub-program.
+
+Define “routine”.
+Same as function and method, a sub-program.
+
+Define “argument”.
+Like parameters, arguments are values fed into the function to work with, but are usually actual defined values instead of variables.
+
+Define a “parameter”.
+An optional set of variables that can be fed into the function for it to work with.
+
+What is meant by “returning a value”?
+When a function is done running, it usually calculates something in the end to be stored somewhere, that calculated value is the value that is returned in the end (if it was explicitly stated in the function to do so).

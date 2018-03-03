@@ -1,0 +1,17 @@
+Asynchronous: Something that can occur without being subject to regular intervals. In computers can mean some action does not need to be completed before moving onto the next action.
+
+Bits per second (bps): When we talk about internet speeds, what we are referring to is how many bits are transmitted over a network per second. Could also apply to how fast data is transferred internally in a computer too.
+
+Card: An expansion card that can be used to extend the functionallity of your computer, such as adding a TV card so you can watch TV through your computer instead of a normal TV.
+
+Compress: To reduce the file sizes of computer files by taking data that is redundant, and then handled by another program will re-enter that data once the file is opened.
+
+CRC: Cyclic Redundancy Check, a method of checking data in a computer when it is being saved to make sure there were no errors in the saving or transmitting process of files.
+
+Driver: A computer program meant to interface between a peripherals hardware and the computer itself, so the computer knows how to use that device.
+
+GB: Stands for GigaByte, a gigabyte is one billion bytes.
+
+Mbps: Short for Mega-bits-per-second. A common way to measure internet speeds, as measured by how many million of bits transfer to a computer from the internet per second.
+
+SD Card: Short for Secure Digital card. This is the standard of portable memory storage device that won out among many others that were trying to gain market penetration for smaller devices like digital cameras, which competed with many now defunct similar memory cards of the time. For smaller devices, these and its smaller variant MicroSD is the most popular way to add storage to small devices.

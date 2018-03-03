@@ -1,0 +1,9 @@
+-What is "application lifecycle management" (ALM)? Basic sequence for making software, the set of procedures and tools to manage this process. Usually includes requirements, architecture, develop, test, deploy it, and maintain it.
+-What are "data types"? The type of data you're working with, like integers, floating point numbers, strings, booleans, or the types that you make.
+-In programming, what is a "dictionary"? A description of a data structure and its behaviors. 
+-What is a "scripting language"? A programming language primarily meant for automating repetitive, manual tasks.
+-What is a "web application" and what is a "console based" application? An application that runs on a web server that you access through a special piece of software or a web browser, as opposed to one ran locally on your computer/device.
+-What is an "assembler" and "assembly language"? A special piece of software on the CPU, that would take simpler commands in the assembly language like MOV, ADD, STR, and convert it directly to binary, or machine language.
+-What is an "interpreter" and "interpreted language"? An interpreter is a special piece of software like the compiler, however it will just take code line by line and convert it right there for the CPU to interpret, instead of converting all of the program and then running it.
+-What is a "compiler" and a "compiled language"? The high level, later generation programming languages have a special piece of software to convert the source, nearly english code using a compiler, into what the CPU can interpret of machine language. The compiler converts the whole program first, then it executes the program.
+-What is a "framework" and what is the ".NET Framework"? A framework is a collection of premade pieces of code in a library and its documentation. .NET Framework is one such framework made by Microsoft, to make almost any type of application.

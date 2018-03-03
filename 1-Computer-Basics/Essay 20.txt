@@ -1,0 +1,20 @@
+Array - A set of data arranged in rows and columns, to hold more than one element and to make lists of data that can be sorted and processed.
+ASP.NET - Stands for Active Server Pages.net, a programming language that combined with standard HTML to have more dynamic web pages.
+Assembly language - The machine code that computers read more easily, but harder for humans to understand, than a high-level language that most programmers program in.
+Back end - The parts of a website and programs that handle functions that the user does not see, but important to how the website functions. Databases are an example of back end of a website.
+BASIC - Stands for Beginners All-purpose Symbolic Instruction Code. An older programming language originally made for student programmers to write simple programs, but has evolved to a full-fledged language.
+C - One of the most widely used programming languages, used for operating systems and low level uses to many other games and applications.
+C# - A newer variant of C made by Microsoft in 1999, with many uses.
+C++ - Another variant of C that became very popular, many games are written with this.
+High-level language - A programming language that is easier for humans to understand, but not easy for computers to understand.
+Low-level language - A language computers can interpret easily, but is harder for humans to understand.
+Interpreter - A special program that converts high level language into low-level language.
+Front end - Designing a website with regards to how it looks and how users interact with it, but not any of its essential behind the scenes functions like Back end is.
+Java - A programming language made in the early 90's from Sun Microsystems, originally meant to be used on cell phones but came to be used on everything. It is versatile in use because it runs on a virtual machine, when installed on the machine, can run programs regardless of what hardware it is on, provided the hardware can support the virtual machine.
+JavaScript - A language that works on most computers, and is primarily used to give websites more dynamic functionality like what ASP.net did.
+JQuery - A collection of premade javascript instructions to do a variety of things with websites, things already made so programmers don't have to reinvent the wheel so to say.
+JSON - Stands for JavaScript Object Notation, a code used in exchanging data. The format is easy for humans to read and write while also being able to be understood and handled by computers. Mainly used to transmit data between servers and internet applications.
+Load - To take files and programs from a storage device or online and put them into active memory so it can be used and ran.
+Load testing - Tests on a program or website to handle multiple users and see if it will keep running and be stable in the most stressed conditions.
+Object-oriented programming - The approach to programming that focuses on objects and data, which these objects can manipulate data fields and do things that the programmer wants them to.
+Scripting language - A programming language who's primary function would be to automate commands that a computer would do, so to make some tedious tasks easier to do.

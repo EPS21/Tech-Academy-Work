@@ -1,0 +1,6 @@
+Algorithm - A sequence of steps or in order to solve a problem, often used in mathematics.
+Application - Another word for computer program.
+Network - A series of interconnected computers and/or devices that can communicate with each other.
+Scratch - A simple programming language mainly used for designing interactive stories, games, and animation.
+Queue - the order in which a computer or device will execute tasks, in the event it can't do them in an otherwise timely and instantaneous fashion.
+Spooling - Much like the queue, the Simultaneous Peripheral Operations On-Line, or spooler lines up tasks or jobs to the device, like a printer, and while that device is working it won't hang up the computer to wait for the device to finish.

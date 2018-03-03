@@ -1,0 +1,12 @@
+TextWindow.WriteLine("Calculates area of a rectangle of sides a and b")
+TextWindow.WriteLine("Enter a: ")
+a = TextWindow.ReadNumber()
+TextWindow.WriteLine("Enter b: ")
+b = TextWindow.ReadNumber()
+
+RectangleArea()
+
+Sub RectangleArea
+  textwindow.WriteLine(a * b)
+EndSub
+  

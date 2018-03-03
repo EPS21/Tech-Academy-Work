@@ -1,0 +1,21 @@
+Computer
+An electronic machine who's main purpose is to make doing repitive tasks easier. In todays world, they have advanced enough to do many complex tasks that are represented audiovisually into the tools we use everyday in nearly all aspects of life.
+Computers store and process information, and only do what the user has instructed it to do.
+
+Computer Language
+An organized system of words, phrases and symbols, that can lets you create programs on a computer and is interfaced with various software and hardware components, that is ultimately interfaced with the hardware in binary code and instruction sets to power these programs.
+
+Computer Science
+The study of computers, computer programming languages, how they operate and their potential uses to solve problems in today's world.
+
+Information Technology (IT)
+The study and use of Computers and other machines, usually in a more practical application in real world and in organization, as opposed to the more theoretical sense studying CS is.
+
+Internet
+The interconnected system of communication across the world, and their associated standardized protocols such as TCP/IP, created in the late 1950s/1960s initially as a way to keep communication intact in the event of potential nuclear fallout during the Cold War, but evolved into a much broader usage we know it as today. Actually, it was invented by Al Gore. Just kidding
+
+Operating system
+A special program meant to run as a baseline to inteface with the computer's hardware and peripherals, and the subsequent programs are installed on afterwards. Examples today include Windows, OSX, various Linux distributions etc.
+
+Program
+A set of instructions that is run on a computer to perform various tasks, from simple calculators to today's complex 3D games. The use of dedicated programs for many users today becomes defunct as most of these programs can run and save data in the cloud through a web browser.

@@ -1,0 +1,5 @@
+Version Control - The way in which multiple files and computer programs are managed from multiple simultaneous users editing the program.
+VCS - Stands for Version Control System, of which many different types of these systems for managing software revisions exist. 
+TFS - Team Foundation Server, a VCS made by Microsoft, mostly tailored for Microsoft's development languages like visual studio.
+Branch - When you save the version of your code to another file, and then keep building on that version instead of the original, it has then "Branched" out from the original version into a different branch.
+Merge - When two or more developers are working on the same program or file, the way in which the VCS handles putting multiple different save files into one.

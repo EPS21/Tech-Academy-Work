@@ -1,0 +1,10 @@
+1. What is hexadecimal and how can you use it as a developer?
+Hexadecimal is a base 16 numbering system, and it seems to be a way to convert the often hard to read binary code, because everything but the smallest quantities are represented as a big long string of ones and zeros, so hexadecimal helps to shorten the amount of characters used and thus, make some numbers in the code a little more clear to a developer to read than binary.
+2. Convert the following hexadecimal to decimal:
+2A = 42
+9F = 159
+101D = 4125
+3. Convert the following hexadecimal to binary:
+3B = 111011
+4F = 1001111
+96E = 100101101110

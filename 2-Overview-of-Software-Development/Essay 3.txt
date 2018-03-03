@@ -1,0 +1,8 @@
+a. Define the following terms in your own words:
+-Assignment - The act of giving a value to a variable.
+-Expression - The full mathematical equation in a line of code, including the operands, operators and variables. 
+-Opcode - Short for Operation Code, A machine code instruction to tell the CPU to do something, like add two numbers for example.
+Operand - The numbers or variables being used in a mathematical equation, like 1,5,x, etc.
+b. What is this equation and what does it mean?
+DIGIT * (BASE ^ POSITION #)
+This is the relationship between a digit, its base numbering system, and what position it has within a certain number of a specific numbering system. For example, in 3B in hexadecimal, The digit B is in position 0, so base 16 to the power of 0 is 1, times the digit B would be 11 * 1 = 11, so in the first position 0 there is a B (or 11).

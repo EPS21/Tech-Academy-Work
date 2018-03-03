@@ -1,0 +1,40 @@
+Turtle.Show()
+Turtle.X = 400
+Turtle.Y = 300
+
+Turtle.Move(50)
+
+For i = 1080 To 0 Step -1
+  Turtle.Angle = i
+  Program.Delay(1)
+EndFor
+
+Program.Delay(1000)
+
+For i = 0 To 1080 Step 1
+  Turtle.Angle = i
+  Program.Delay(1)
+EndFor
+
+Program.Delay(1000)
+
+Turtle.Angle = 90
+Program.Delay(250)
+Turtle.Angle = 270
+Program.Delay(250)
+Turtle.Angle = 180
+Program.Delay(250)
+Turtle.TurnRight()
+Program.Delay(250)
+Turtle.TurnLeft()
+Program.Delay(500)
+
+Turtle.MoveTo(1,1)
+
+
+
+
+
+
+
+

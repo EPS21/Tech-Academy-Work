@@ -1,0 +1,13 @@
+TextWindow.WriteLine("Enter a: ")
+a = TextWindow.ReadNumber()
+Program.Delay(0)
+TextWindow.WriteLine("Enter b: ")
+b = TextWindow.ReadNumber()
+
+If (a < b) Then
+  TextWindow.WriteLine("a" + " ("+a+")" + " is less than " + "b" + " ("+b+")")
+ElseIf (a > b) Then
+  TextWindow.WriteLine("a" + " ("+a+")" + " is greater than " + "b" + " ("+b+")")
+EndIf
+
+  

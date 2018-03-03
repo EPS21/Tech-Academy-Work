@@ -1,0 +1,12 @@
+TenSecondTimer()
+
+Sub TenSecondTimer 'A timer for ten seconds, and displays the time each second'
+  For i = 0 To 10 Step 1
+    'TextWindow.WriteLine(i)'
+    Program.Delay(1000)
+    TextWindow.WriteLine(Clock.time)
+  EndFor
+EndSub
+
+
+  

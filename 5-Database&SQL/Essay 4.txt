@@ -1,0 +1,25 @@
+; (semicolon) - Used to end statements in many programming languages including SQL
+<: Less than
+<=: Less than or equal to
+<>:  Less than or greater than
+=: Equals, or the assignment operator
+>: Greater than
+>=: Greater than or equals to
+-Aggregate functions - these functions allow you to perform a calculation on a set of values to get a singular value in the end. For example, the COUNT function will count up how many values in a column and give back how many it counted up.
+-AND - lets you choose more than one thing
+-AS - Lets you rename a field or table to another name
+-ASC - ascending order
+-CLAUSE - statements like WHERE, a conditional clause so that only certain data is retrieved
+-COUNT - counts the number of values
+-DESC - descending order
+-DISTINCT - use this in a select statement to eliminate duplicate rows
+-FROM - use this to tell your dbms from what table you are selecting and working with in your statement
+-GROUP BY - This lets you do aggregate functions and group the result set by certain columns
+-HAVING - similar to WHERE clause, but lets you do it with aggregate functions
+-LIKE - when you need to search or compare values that are the same or similar, often used with wildcards
+-NULL - when an element in the table has nothing in it, it is null
+-OR - the conditional statement in a WHERE clause which displays a record if a condition between the OR statement is true
+-ORDER BY - this is how you sort by a certain column, usually with ASC or DESC order appended to it
+-SELECT - the basic statement in order to point to values in a table and display them
+-VALUES - when using insert into and probably some other statements, you'll use VALUES to denote what values you are inserting into your table(s)
+-WHERE - the WHERE clause is how to filter records and only obtain ones fulfilling a certain condition you specify.

@@ -1,0 +1,14 @@
+How is a computer basically composed?
+A computer is composed of a chassis that houses the CPU and other components, as well as the input and output devices as that lets users input data and receive an output once it is processed by the CPU. The main components inside the chassis are composed of a motherboard, which every internal component connects to, the CPU, RAM, GPU, internal storage like an HDD or SSD, sound card, network/wireless card, optical drives etc. Some of these components may be embedded into the motherboard already to save space and not have to have many expansion cards installed in there.
+
+How does a computer work?
+A computer essentially works by taking an input voltage, converted from AC power from the wall into DC current from the power supply, and moves it through the various semi-conductive materials that can trigger whether a circuit receives an 'on' (1) or 'off' (0) signal. Through the use of gates and adders, it can turn these on and off signals into binary data, which can then produce useful data that we use today.
+
+How are numbers stored, added and handled by a computer?
+Numbers are stored, added, and handled by computers by using a system of logic gates, taking in the direct voltages (or lack thereof) and interpreting it as binary code. Like how binary numbers are added, the computer when it adds two binary digits together, will hold that signal of a carry bit, just like carrying the one when adding 1 and 1 in binary. It can calculate the sum and the carry bits with half-adders and adders. After it process this data, it then moves to other parts of the storage like an active program in the ram, or stored later for when saved into a hard drive or other such storage device. 
+
+Why is it useful for you to know how a computer works as a developer?
+I think it's useful to know how a computer works as a developer because its important to understand that everything in a computer is not just 'magic' that spits out information after we put it in a certain way, and that everything we put into it will boil down to binary data. This can be important for say different data types, the ones that use less memory and are closer to binary data as possible will be easier for the computer to process, and therefore make faster and more efficient programs. There are other ways as well we haven't learned about yet, but to be the best possible developer I think it pays to know exactly how computers work so that when bugs and issues occur in code, you can better understand why they are happening.
+
+What did you learn from doing this section of the course?
+I learned how to count and add and subtract in binary, and understand how exactly that system works now. Also, the way gates and adders and how a CPU works at its most basic level is really enlightening to just how simple a computer is really, its just that it does this on a magnitude that billions times faster than what a single person can do.

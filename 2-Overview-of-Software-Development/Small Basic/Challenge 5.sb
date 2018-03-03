@@ -1,0 +1,27 @@
+TextWindow.WriteLine("Welcome to Eric's divisor program, where the numbers after the decimal point are just rounded up!")
+start:
+TextWindow.WriteLine("Enter a dividend")
+a = TextWindow.ReadNumber()
+TextWindow.WriteLine("Enter a divisor")
+b = TextWindow.ReadNumber()
+remainder = Math.Remainder(Math.Ceiling(a),Math.Ceiling(b))
+TextWindow.Write("Your remainder is:")
+Program.Delay(500)
+TextWindow.Write("...")
+Program.Delay(500)
+TextWindow.Write("...")
+Program.Delay(500)
+TextWindow.Write("...")
+Program.Delay(500)
+TextWindow.Write(remainder + "!")
+
+If (remainder = 0) Then
+  TextWindow.WriteLine(" This fraction results in a whole number")
+ElseIf (remainder > 0) Then
+  TextWindow.WriteLine(" This fraction does not result in a whole number")
+Else
+  TextWindow.WriteLine("you somehow have a negative remainder...")
+EndIf
+
+
+

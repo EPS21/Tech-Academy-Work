@@ -1,0 +1,11 @@
+-What are five of the most common command line commands?
+cd, dir, move/copy, del, ren
+
+-What do they each do?
+cd - changes the directory that you are working in, can go back with cd.., all the way back with cd\, and cd "some folder name" to go to the specified folder
+dir - lists what is in the current directory so you can see what files and folders are in there
+move/copy - let's you move or copy a file from one location to another
+ren - renames a file or folder in your directory to something else 
+
+-How is it useful for you to know about the command line as a developer?
+As a developer or even a regular computer user, the CLI is another useful tool to have at your disposal, as sometimes its easier to navigate and manipulate files and folders this way than opposed to using the regular windows explorer GUI. And by being able to make and use batch files, you can automate and make scripts for doing a bunch of different things within windows that you normally can't with just the GUI. Doing these kinds of things in essence is like programming, to do a task automatically and make it easier for the user in the end.

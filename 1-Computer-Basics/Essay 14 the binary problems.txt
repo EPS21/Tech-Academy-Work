@@ -1,0 +1,50 @@
+a. Define decimal: The number system based on ten.
+b. Define integer: A single whole number, but cannot be a fraction of a number.
+c. Define base: in a numbering system, this is how many unique digits that are used in the system. For instance, base 10 has 0123456789.
+d. Write out what a "base five" number system would be: 01234
+e. Define binary: A base two numbering system, with 1s and 0s as its digits.
+
+Count to 25 using binary (write this out) in rows: 
+0 0 0 1
+0 0 1 0
+0 0 1 1
+0 1 0 0
+0 1 0 1
+0 1 1 0
+0 1 1 1
+1 0 0 0
+1 0 0 1
+1 0 1 0
+1 0 1 1
+1 1 0 0
+1 1 0 1
+1 1 1 0
+1 1 1 1
+1 0 0 0 0
+1 0 0 0 1
+1 0 0 1 0
+1 0 0 1 1
+1 0 1 0 0
+1 0 1 0 1
+1 0 1 1 0
+1 0 1 1 1
+1 1 0 0 0
+1 1 0 0 1
+
+g. Translate the following binary numbers into decimal numbers
+010 = 2
+011001 = 25 
+011111 = 31
+01011010 = 90
+11110101001 = 1961
+01001110101101 = 5037
+
+h. Answer the following binary addition problems:
+001 + 010 = 011 (3)
+0110 + 0010 = 1000 (8)
+0011111 + 0110110 = 1010101 (85)
+
+i. Answer the following binary subtraction problems
+100 - 010 = 010 (2)
+1101 - 0100 = 1001 (9)
+111011011 - 001010101 = 110000110

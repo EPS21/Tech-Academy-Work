@@ -1,0 +1,15 @@
+.htm - the file format for webpages, also can be .html
+/ (slash) - denotes the folder structure in the website, and where files are located in the website.
+// (two slashes) - indicates in a URL what follows is a network and what domains come after it.
+: (colon) - indicates the end of a protocol in a URL
+Core - The memory of a computer was once referred as a core, and deleting or moving all the memory is known as a 'core dump.' Cores are also known as the CPU's in computers now, and often how many logical processors it has are known as cores. Most CPU's are multi-core now.
+Encryption - The way of protecting data by taking it and scrambling it into different characters, so when it is transmitted across networks no one else can but the intended recipients can interpret the data.
+Fiber Optics - A technology of physical cables, typically made of plastic or glass, which uses pulses of light to refract through the cable to transmit data. Theoretically able to move at the speed of light, it is currently the fastest way to transmit data between two computers.
+HTTPS - The protocol for transmitting data across the internet, in a secure away hence the S for Secure.
+XML - Stands for Extensible Markup Language, the system of creating extra data for currently existing data, to tag or mark-up in a way that can be used to organize it, change its appearance etc.
+Index - On websites, a home page typically has or links to an Index for the rest of the website, to be able search other specific information on that site. Usually its just easier to google the web page so you don't have to mess with a websites convoluted index system.
+ISP - Internet Service Provider, they are companies that own and maintain the internet infrastructure so users can access the world wide web.
+JPEG - One such standard for how computer images are saved and created and is popular.
+Peer - In a network, two or more computers or nodes with mostly similar functions (ie not a specialized equipment like a router). To connect these computers without the aid of other hardware or parties involved is known as Peer-to-Peer.
+Script - A set of instructions to automate a task in a computer, so the user doesn't have to keep doing them.
+SSL - Secure Socket Layer, a way to send data over the internet securely by confirming a website and the data you receive is truly who they say they are, by having a 3rd party monitor the website and verify them with SSL certificates.

@@ -1,0 +1,29 @@
+1. What is data-driven programming?
+Data driven progamming is where the data itself controls the flow of the program instead of the program logic. You control the flow of the program by what data sets you insert into it, which is then handled to interpret that in a simpler program, as opposed to more complex logic flow in typical programming, but does not take in these bigger data sets.
+
+2. What is a database-driven website?
+A database-driven website is a website in which updates and changes to the website are performed in real-time as the database itself changes, so whenever the database changed by whoever, the website too changes. Most of the data stored in a website like this is not in the html files like a static webpage, but in the database.
+
+3. What is the data access layer?
+The DAL is the lowest layer in the database software that provides the actual accessing of database files and tables. It is the part that actually interacts with the database, as opposed to higher layers that will display that information in a more usable manner.
+
+4. In SQL, what is the INSERT statement?
+The INSERT statement is how you put data into your tables after the table is made. Specifically it inserts a new row into the table, provided it follows the criteria of the table.
+
+5. In SQL, what is the SELECT statement?
+The SELECT statement is the main way to query information from your tables, you select some or all columns from a table, and from which table to pull the information from.
+
+6. In SQL, what is the ORDER BY clause?
+By default, a query of your table will be ordered by the primary key in ascending order. If you want to change from what column and how it is sorted, you can use ORDER BY to choose that.
+
+7. In SQL, what is OUTER JOIN?
+The outer join is when you connect two tables through a shared column they have with the foreign key, and you join all rows of information from each table, regardless whether they both have all the same values in that shared column, or if one has more key values than the other it will still pull it.
+
+8. In SQL, what is INNER JOIN?
+As opposed to the outer join, the inner join will only pull information where the key values exist in both tables, but if another key value existed in one but not the other, then it won't display that information.
+
+9. In SQL, what is the WHERE clause?
+The WHERE clause is how you have a conditional in your SELECT statement, where you want to only bring up rows that fulfill a certain requirement, like bring up the names of people who are borrowing a book only if (where) the book's author is Stephen King.
+
+10. In SQL, what is the DELETE command?
+The DELETE command is used to erase records from a table. If you don't have a conditional in your delete, you will delete everything from the table you selected.
