@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	
+	<script>
+	function myFunction(make, model) {
+		this.make = make;
+		this.model = model;
+		document.write("<br>" + this.make + " : " + this.model); <!-- Outputs in html body -->
+		console.log(this.make + " : " + this.model); <!-- Outputs in the system console -->
+	};
+	var myCar1 = new myFunction("Mazda", "6");
+	var myCar2 = new myFunction("Mazda", "Miata");
+	
+	</script>
+	
+	</body>
+</html>
