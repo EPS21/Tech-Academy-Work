@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 id="line"></h1>
+
+<p class = "text">Some text</p>
+<p class = "text">yolo swag</p>
+<p class = "text">bilbo swaggins</p>
+<p class = "text">yolo swaglomite 420</p>
+
+<script>
+var line = document.getElementById("line");
+line.innerHTML = "asdfasdfasf";
+line.style.color = "blue";
+
+// Using getElements (with an 's') to grab multiple elements like they're in an array
+var text = document.getElementsByClassName("text");
+text[2].style.color = "red";
+
+//various ways to grab elements to use in js
+//document.getElementById()
+//document.getElementsByClassName()
+//document.getElementByName()
+//document.getElementByTagName()
+</script>
+
+</body>
+</html>
