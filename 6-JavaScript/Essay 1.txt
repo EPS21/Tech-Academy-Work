@@ -1,1 +1,29 @@
-asdf
+1. In JavaScript, what does "multi-dimensional arrays" mean?
+A multi-dimensional array is creating an array of arrays, or even more if that works, like representing mathematical matrices. Basically, an array within an array.
+
+2. In JavaScript, what does "== vs. ===" mean?
+== is checking for the same value, but not datatypes so you could have an int = 2 and a string = "2" so if you would compare them it would return true. === does check for both value and datatype, so the aforementioned example would instead return false because one is an int and the other is a string value.
+
+3. In JavaScript, what does "console.log" mean?
+It is how you output information into the console. It is useful for seeing if your code is behaving how you want it to.
+
+4. In JavaScript, what is a "function"? Why is it important?
+A function is a way to store a code snippet so it can be recalled multiple times without having to be re-written again. They are important because it would be way more convoluted to write the code each time on each DOM element, would be extremely impractical.
+
+5. In JavaScript, what does "isNaN" mean?
+It stands for "is Not a Number." It is used to check for values that aren't a number, when you are expecting them to be. If it's not a number, it returns true, if it is it returns true.
+
+6. In JavaScript, what does "Object literals" mean?
+If you have an object and want to create and assign it some properties and methods, you can use Object literal syntax so you don't have to use the typical javaScript dot notation like 'myObject.property = x' it would look like 'property : x'
+
+7. In JavaScript, how do "Property Accessors" work?
+Property Accessors work to grab properties from an object, and you can do this using the object literal dot notation, or the bracket notation. It is the way to pull properties from an object and display or do something with that property value.
+
+8. In using JavaScript with HTML, what is the document object? How does it work?
+In HTML, the document object are all of the elements and attributes in the html file, and javaScript is able to grab those values and modify and change all of those elements without having to reload the page, which is how it has its power for making dynamic webpages.
+
+9. How do you call a jQuery function from within JavaScript?
+With jQuery or a $ sign. You also need to grab the jQuery runtime file, either stored in the html page or seperately from the server or the users computer if it exists, to be able to call jQuery functions.
+
+10. What are three common jQuery functions?
+hide(), show(), various fade() effects

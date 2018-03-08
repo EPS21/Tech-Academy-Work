@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	button{font-size:1.5em; font-weight:bold; height:75px; width:100px;}
+</style>
+</head>
+
+<body>
+	<h1 id="countdown">counto hajimarizou!</h1>
+	<br><br>
+	<button class="btn" onclick="up()">Start!</button>
+	
+	<script>
+		var i = 0;
+		var myArray = [1,2,3,4,5,6,"DO IT!"];
+		function up() {
+			if (i < myArray.length) {
+			document.getElementById('countdown').style.color = "red";
+			document.getElementById('countdown').innerHTML = myArray[i];
+			i++;
+			}
+			window.setTimeout(up, 250);
+			// A random color generator i took from stack overflow
+			document.body.style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
+		}
+	</script>
+
+</body>
+</html>

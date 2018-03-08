@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<p>Menu Itams:</p>
+<ul class="menu">
+	<li>Itam 1</li>
+    <li>Itam 1</li>
+    <li>Itam 1</li>
+    <li>Itam 1</li>
+    <li>Itam 1</li>
+</ul><br><br>
+
+<button>Click Me!</button>
+<script>
+	jQuery(document).ready(function() { // You can say jQuery or $ to call these
+    	$("button").click(function() {
+        	$(".menu").slideToggle("fast");
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+
+#box {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	width: 600px;
+	Height: 600px;
+}
