@@ -28,60 +28,14 @@
 							</li>
 						</ul>
 					</div>
-					
-					<!-- my dropdown navbar but its not working -->
-					<div class="pos-f-t">
-						<div class="collapse" id="navbarToggleExternalContent">
-							<div class="bg-dark p-4">
-								<h4 class="text-white">Collapsed content</h4>
-								<span class="text-muted">Toggleable via the navbar brand.</span>
-							</div>
-						</div>
-						<nav class="navbar navbar-dark bg-dark">
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-							</button>
-						</nav>
-					</div>
 			</nav>
-			
-			
-			
 			<!-- /Navigation -->
 			
 			<!-- Header -->
-			<header>
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-				
+			<header>				
 				<div class="container">
 					<span class="head-main">Eric Sheng | Software Developer</span>
-				</div>
-			
+				</div>			
 			</header>
 			<!-- /Header -->
 			
@@ -98,37 +52,41 @@
 					<div class="row text-center">							
 						<div class="col">
 							<img src="./img/github.png" width="250" height="250" alt="web dev languages">
-							</br>
-							Did this stuff
-							</br>
-							And this stuff too							
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#github-btn">Skill Summary</button>
+							</br></br></br>							
 						</div>
 						<div class="col">
 							<img src="./img/html5.png" width="250" height="250" alt="web dev languages">
-							</br>
-							Two of Six skillz
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#html-btn">Skill Summary</button>
+							</br></br></br>
 						</div>
-						<div class="col">
-							<img src="./img/db.png" width="250" height="250" alt="web dev languages">
-							</br>
-							Three of Six skillz
-						</div>
-					</div>
-					<div class="row text-center">		
 						<div class="col">
 							<img src="./img/js.png" width="250" height="250" alt="web dev languages">
-							</br>
-							Four of Six skillz
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#js-btn">Skill Summary</button>
+							</br></br></br>
 						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col">
+							<img src="./img/db.png" width="250" height="250" alt="web dev languages">
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#db-btn">Skill Summary</button>
+							</br></br></br>
+						</div>						
 						<div class="col">
 							<img src="./img/visual_studio.jpg" width="250" height="250" alt="web dev languages">
-							</br>
-							Five of Six skillz
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#vs-btn">Skill Summary</button>
+							</br></br></br>
 						</div>
 						<div class="col">
 							<img src="./img/csharp.png" width="250" height="250" alt="web dev languages">
-							</br>
-							Six of Six skillz
+							</br></br>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#csharp-btn">Skill Summary</button>
+							</br></br></br>
 						</div>					
 					</div>
 				</div>
@@ -174,6 +132,143 @@
 			</section>
 			<!-- /Experience Section -->
 			
+			<!-- Modal Section -->
+			<!-- github modal -->
+			<div class="modal fade" id="github-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Version Control</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Version control is cool</p>
+							<a href="https://github.com/EPS21">Check out my github!</a>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- html modal -->
+			<div class="modal fade" id="html-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">HTML5 and CSS3</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>HTML and CSS are the basic building blocks of front end web design</p>
+							<ul>
+								<li>Familiar with frameworks like Bootstrap</li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- javascript modal -->
+			<div class="modal fade" id="js-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">JavaScript and JQuery</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Along with HTML and CSS, javaScript is the de-facto framework for making dynamic and interactive webpages,
+							such as this little button you clicked on.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- database modal -->
+			<div class="modal fade" id="db-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Databases and SQL</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>What would big data be without the databases? From different products to cute cat pictures, databases are how store
+							and change all manner of things on the web</p>
+							<ul>
+								<li> Familiar with Microsoft Server SQL Database management system </li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- visual_studio modal -->
+			<div class="modal fade" id="vs-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Microsoft Visual Studio</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Trained in this very versatile development environment, Microsoft's visual studio is a popular and powerful
+							tool for todays programmers.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- c# modal -->
+			<div class="modal fade" id="csharp-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">c# Programming Language</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>The majority of programming theory I learned was with C#, but I am also familiar and dabbled with:</p>
+							<ul>
+								<li>Java</li>
+								<li>C++</li>
+								<li>Python</li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Modal Section -->
+			
 			<!-- Footer -->
 			<footer>
 				<ul class="nav justify-content-center">
@@ -191,7 +286,13 @@
 					</li>
 				</ul>
 			</footer>
-			<!-- /Footer -->					
+			<!-- /Footer -->
+			
+			<!-- jQuery first, then Tether, then Bootstrap JS. -->
+			<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+					
 		
 	</body>
 </html>
