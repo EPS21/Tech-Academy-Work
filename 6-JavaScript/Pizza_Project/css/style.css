@@ -1,0 +1,48 @@
+body {
+	background-image: url(../img/bg.jpg);
+	
+  background-color: deeppink;
+  font-family: "comic sans ms";
+}
+
+header {
+	opacity: 0.5;
+  background-color: #00ff00;
+  text-align: center;
+}
+
+#pizza-menu {
+	opacity: 0.9;
+  background-color: #ff00ff;
+  margin: auto; /*centers the box*/  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  width: 850px;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+	opacity: 1 !important;
+  background-color: lightblue;
+  justify-content: center;
+  text-align: left;
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 25px;
+  border: 2px solid black;
+}
+
+.btn-box, .result-box {
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}

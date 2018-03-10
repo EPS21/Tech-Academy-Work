@@ -15,10 +15,11 @@
 		var i = 0;
 		var myArray = [1,2,3,4,5,6,"DO IT!"];
 		function up() {
-			if (i < myArray.length) {
+			for (i; i < myArray.length; i++) {
 			document.getElementById('countdown').style.color = "red";
-			document.getElementById('countdown').innerHTML = myArray[i];
-			i++;
+			document.getElementById('countdown').innerHTML = myArray[i] + ' a thing';
+			//i++;
+
 			}
 			window.setTimeout(up, 250);
 			// A random color generator i took from stack overflow
