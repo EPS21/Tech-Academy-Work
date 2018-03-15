@@ -14,7 +14,7 @@ header {
 #pizza-menu {
 	opacity: 0.9;
   background-color: #ff00ff;
-  margin: auto; /*centers the box*/  
+  margin: 0 auto; /*centers the box*/  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

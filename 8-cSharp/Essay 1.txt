@@ -1,0 +1,3 @@
+Based on the diagram in the previous slide, write a description of each element of the CLI and how they all relate to each other.
+
+Each element in the Common  Language Infrastructure (CLI) is a different programming language compiler, and they are different languages encompassed in the .NET framework, that have a Common Intermediate Language (CIL)  that will turn code from each of these languages into a common assembly language, which is then passed into the Common Language Runtime (CLR) which runs and compiles all and only the code it needs in a Just-In-Time (JIT) manner, which ultimately is compiled into the machine language the the computer hardware can interpret and run the program.
