@@ -1,0 +1,7 @@
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.dll.config
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.dll
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.pdb
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.csprojResolveAssemblyReference.cache
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.csproj.CoreCompileInputs.cache
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.dll
+C:\Users\EPS21\source\repos\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.pdb

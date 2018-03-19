@@ -1,0 +1,13 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.pdb
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.dll.config
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.dll
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\bin\CS-ASP_008.pdb
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.csprojResolveAssemblyReference.cache
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.csproj.CoreCompileInputs.cache
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.dll
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\CS-ASP_008\Before\CS-ASP_008\CS-ASP_008\obj\Debug\CS-ASP_008.pdb

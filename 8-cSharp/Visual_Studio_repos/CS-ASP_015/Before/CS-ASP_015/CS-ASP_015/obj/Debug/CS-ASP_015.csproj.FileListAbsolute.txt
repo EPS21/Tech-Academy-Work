@@ -1,0 +1,7 @@
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.dll.config
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.dll
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.pdb
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.csprojResolveAssemblyReference.cache
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.csproj.CoreCompileInputs.cache
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.dll
+C:\Users\EPS21\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.pdb

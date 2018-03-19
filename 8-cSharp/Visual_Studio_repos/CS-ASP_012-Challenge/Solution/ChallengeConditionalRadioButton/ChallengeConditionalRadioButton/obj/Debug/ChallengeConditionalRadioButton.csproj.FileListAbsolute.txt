@@ -1,0 +1,6 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.pdb

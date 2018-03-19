@@ -1,0 +1,6 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\bin\ChallengeFirstPapaBobsWebsite.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\bin\ChallengeFirstPapaBobsWebsite.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\bin\ChallengeFirstPapaBobsWebsite.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\obj\Debug\ChallengeFirstPapaBobsWebsite.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\obj\Debug\ChallengeFirstPapaBobsWebsite.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeFirstPapaBobsWebsite\ChallengeFirstPapaBobsWebsite\obj\Debug\ChallengeFirstPapaBobsWebsite.pdb
