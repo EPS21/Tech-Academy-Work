@@ -49,9 +49,18 @@ namespace CS_ASP_014
             }
             */
 
+            // here is the exception handling that works, catching the general exception
+            try
+            {
+                DateTime dateValue = DateTime.Parse(TextBox1.Text);
+                resultLabel0.Text = dateValue.ToLongDateString();
+            }
+            catch (Exception)
+            {
+                resultLabel0.Text = "Please input a valid date";
+            }
             // working but no error exception
-            DateTime dateValue = DateTime.Parse(TextBox1.Text);
-            resultLabel0.Text = dateValue.ToLongDateString();
+            
             
 
 

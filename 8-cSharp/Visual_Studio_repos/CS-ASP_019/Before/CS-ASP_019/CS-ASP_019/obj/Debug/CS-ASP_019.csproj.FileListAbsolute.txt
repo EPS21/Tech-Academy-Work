@@ -1,0 +1,13 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.pdb
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.dll.config
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.dll
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\bin\CS-ASP_019.pdb
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.csprojResolveAssemblyReference.cache
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.dll
+C:\Users\Tech Academy Student\Desktop\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_019\Before\CS-ASP_019\CS-ASP_019\obj\Debug\CS-ASP_019.pdb

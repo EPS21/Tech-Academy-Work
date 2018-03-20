@@ -56,10 +56,10 @@
         <br />
         <br />
         Enter a date in mm/dd/yyyy format, and find out what day of the week this date was on:<br />
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server">11/10/1988</asp:TextBox>
         <asp:Button ID="okButton" runat="server" AccessKey="x" OnClick="okButton_Click" Text="OK" />
         <br />
-        <asp:Label ID="resultLabel0" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="resultLabel0" runat="server"></asp:Label>
     
     </div>
     </form>
