@@ -23,7 +23,7 @@
             <h1><span class="auto-style2">Spy New Assignment Form</span></h1>
             <p>
               Spy Code Name:
-                <asp:TextBox ID="spyNameBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="spyCodeNameBox" runat="server"></asp:TextBox>
             </p>
             <p>
                 New Assignment Name:
