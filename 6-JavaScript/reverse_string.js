@@ -5,6 +5,8 @@ function reverseString(str) {
 }
 console.log(reverseString("Eric Sheng"));
 
+
+
 // Reverse a string using decrementing for loop
 function reverseString2(str) {
 	var newString = []; // should be string to be appended to but can also be array I guess

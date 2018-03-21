@@ -30,8 +30,8 @@ namespace ChallengeEpicSpiesAssignment
         {
             // declaring variables
             DateTime datePrev = previousCalender.SelectedDate;
-            DateTime startDateNew = startDateCalender.SelectedDate;           
-            DateTime endDateNew = DateTime.Parse(endDateCalendar.SelectedDate.ToString()); // same as previous two? 
+            DateTime startDateNew = startDateCalender.SelectedDate;
+            DateTime endDateNew = endDateCalendar.SelectedDate; //DateTime.Parse(endDateCalendar.SelectedDate.ToString()); // same as previous two? 
 
             TimeSpan daysBetweenAssignment = startDateNew.Subtract(datePrev);
             TimeSpan assignmentLength = endDateNew.Subtract(startDateNew);
@@ -44,19 +44,25 @@ namespace ChallengeEpicSpiesAssignment
             Label1.Text = datePrev.ToString();
             Label2.Text = startDateNew.ToString();
             Label3.Text = endDateNew.ToString();
-            */
+            */           
 
             // Business Rule 2
-
             if (daysBetweenAssignment.Days < 14)
-            {                
+            {
                 resultLabel.Text = "Error: Must allow at least two weeks between previous assignment and new assignment.";
                 // doesnt work
-                //startDateNew = datePrev.AddDays(14); // won't revert date on calender
-                //startDateCalender.VisibleDate = startDateNew;
+                startDateNew = datePrev.AddDays(14).Date; // won't revert date on calender
+                startDateCalender.VisibleDate = startDateNew;
+                startDateCalender.SelectedDate = startDateNew;
 
-                startDateCalender.SelectedDate = previousCalender.SelectedDate.AddDays(14).Date; // why won't my declared variables above work here?
-                                                                                                 // seems .Date can be appended anywhere after SelectedDate
+                //startDateCalender.SelectedDate = previousCalender.SelectedDate.AddDays(14).Date; // why won't my declared variables above work here?
+                // seems .Date can be appended anywhere after SelectedDate
+            } else if (assignmentLength.Days <= 0)
+            {
+                resultLabel.Text = "Error: End date of assignment cannot be on or before it's start date";
+                endDateNew = startDateNew.AddDays(1).Date;
+                endDateCalendar.VisibleDate = endDateNew;
+                endDateCalendar.SelectedDate = endDateNew;
             }
             else
             {               
