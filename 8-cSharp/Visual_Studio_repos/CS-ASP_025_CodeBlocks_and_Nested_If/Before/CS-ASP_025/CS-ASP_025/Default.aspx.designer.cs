@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CS_ASP_020 {
+namespace CS_ASP_025 {
     
     
     public partial class Default {
@@ -22,13 +22,31 @@ namespace CS_ASP_020 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// valueTextBox control.
+        /// firstCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox valueTextBox;
+        protected global::System.Web.UI.WebControls.CheckBox firstCheckBox;
+        
+        /// <summary>
+        /// secondCheckBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox secondCheckBox;
+        
+        /// <summary>
+        /// thirdCheckBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox thirdCheckBox;
         
         /// <summary>
         /// addButton control.
@@ -47,14 +65,5 @@ namespace CS_ASP_020 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label resultLabel;
-        
-        /// <summary>
-        /// resultLabel2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label resultLabel2;
     }
 }

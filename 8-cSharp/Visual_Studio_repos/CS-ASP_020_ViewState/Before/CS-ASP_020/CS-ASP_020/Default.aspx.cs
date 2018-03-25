@@ -14,6 +14,7 @@ namespace CS_ASP_020
             if (!Page.IsPostBack)
             {
                 ViewState.Add("MyValue", ""); // viewstate is to encode values in a webpage, and pull them up again when page is loaded.
+                ViewState.Add("CurrentValue", 0);
             }
         }
 
@@ -25,6 +26,11 @@ namespace CS_ASP_020
             resultLabel.Text = value;
 
             //valueTextBox.Text = "";
+
+            int testValue = (int)ViewState["CurrentValue"];
+            testValue++;
+            resultLabel2.Text = testValue.ToString();
+
         }
     }
 }

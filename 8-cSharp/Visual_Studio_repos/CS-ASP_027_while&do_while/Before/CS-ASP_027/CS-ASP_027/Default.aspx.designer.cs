@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CS_ASP_020 {
+namespace CS_ASP_027 {
     
     
     public partial class Default {
@@ -22,24 +22,6 @@ namespace CS_ASP_020 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// valueTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox valueTextBox;
-        
-        /// <summary>
-        /// addButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addButton;
-        
-        /// <summary>
         /// resultLabel control.
         /// </summary>
         /// <remarks>
@@ -49,12 +31,12 @@ namespace CS_ASP_020 {
         protected global::System.Web.UI.WebControls.Label resultLabel;
         
         /// <summary>
-        /// resultLabel2 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label resultLabel2;
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

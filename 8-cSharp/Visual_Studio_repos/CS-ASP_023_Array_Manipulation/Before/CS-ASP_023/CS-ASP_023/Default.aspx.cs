@@ -38,6 +38,9 @@ namespace CS_ASP_023
             // place back into hours
             ViewState["Hours"] = hours;
 
+            System.Threading.Thread.Sleep(100);
+            
+
             resultLabel.Text = String.Format("Total hours: {0}<br />Most Hours: {1}<br />Least Hours: {2}<br />Average Hours: {3:N2}<br />Index Size: {4}", // Nx gets decimal to x amount of places 
                 hours.Sum(),
                 hours.Max(),

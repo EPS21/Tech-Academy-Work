@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-ASP_026_Looping_With_For", "CS-ASP_026_Looping_With_For\CS-ASP_026_Looping_With_For.csproj", "{C8530392-3BC3-4B98-AFA5-0DAE277701DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8530392-3BC3-4B98-AFA5-0DAE277701DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8530392-3BC3-4B98-AFA5-0DAE277701DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8530392-3BC3-4B98-AFA5-0DAE277701DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8530392-3BC3-4B98-AFA5-0DAE277701DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1827B240-0CB7-4980-B636-FD355ABA4BCD}
+	EndGlobalSection
+EndGlobal
