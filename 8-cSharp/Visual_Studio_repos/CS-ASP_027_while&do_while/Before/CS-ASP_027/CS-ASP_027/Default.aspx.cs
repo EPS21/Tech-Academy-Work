@@ -18,14 +18,21 @@ namespace CS_ASP_027
             string result = "";
 
             // Hero gets bonus first preemptive attack 
-            monsterHP -= random.Next(1, 30);
+            monsterHP -= random.Next(1, 10);
 
             int round = 0;
             result += "<br />Round: " + round;
             result += String.Format("<br />Hero attacks first, leaving monster with {0} health.", 
                 monsterHP);
 
-
+            /* 
+                * x = 0;
+                * y = array[x++]; // This will get array[0]
+                * 
+                * x = 0;
+                * y = array[++x]; // This will get array[1]
+                *
+                */
             // Need battle logic here!
             /*
             while (heroHP > 0 && monsterHP > 0)
@@ -36,7 +43,7 @@ namespace CS_ASP_027
                 monsterHP -= heroDamage;
                 heroHP -= monsterDamage;
 
-                result += "<br/>Round: " + ++round; // ++round versus round++?
+                result += "<br/>Round: " + ++round; // ++round increments before round, round++ increments after      
                 result += String.Format("<br/>Hero causes {0} damage, leaving monster with {1} health.", heroDamage, monsterHP);
                 result += String.Format("<br/>Monster causes {0} damage, leaving hero with {1} health.", monsterDamage, heroHP);
             }
@@ -44,33 +51,38 @@ namespace CS_ASP_027
 
 
 
-            do
+            do // do will make sure this executes at least once
             {
-                int heroDamage = random.Next(1, 10);
-                int monsterDamage = random.Next(1, 15);
+                int heroDamage = random.Next(5, 10);
+                int monsterDamage = random.Next(5, 20);
 
-                monsterHP -= heroDamage;
-                heroHP -= monsterDamage;
+                result += "<br/>Round: " + ++round + " (Hero HP: " + heroHP + " MonsterHP: " + monsterHP + ")";
 
-                result += "<br/>Round: " + ++round; // ++round versus round++?
-                result += String.Format("<br/>Hero causes {0} damage, leaving monster with {1} health.", heroDamage, monsterHP);
-                result += String.Format("<br/>Monster causes {0} damage, leaving hero with {1} health.", monsterDamage, heroHP);
+                if (heroHP > 0)
+                {
+                    monsterHP -= heroDamage;
+                    result += String.Format("<br/>Hero causes {0} damage, leaving monster with {1} health.", heroDamage, monsterHP);
+                }
+
+                if (monsterHP > 0)
+                {
+                    heroHP -= monsterDamage;
+                    result += String.Format("<br/>Monster causes {0} damage, leaving hero with {1} health.", monsterDamage, heroHP);
+                }               
+                            
+
             } while (heroHP > 0 && monsterHP > 0);
-
-
-
 
             if (heroHP > 0)
             {
-                result += "<br />Hero wins!";
+                result += "<br />Hero wins! ";                
             }
             else
             {
-                result += "<br /> Monster wins!";
+                result += "<br /> Monster wins! ";                
             }
 
-
-            resultLabel.Text = result;
+            resultLabel.Text = result + "Hero HP: " + heroHP + " MonsterHP: " + monsterHP;
             //Label1.Text = random.ToString();
         }
     }
