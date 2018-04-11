@@ -2,14 +2,14 @@
 // to get the integer inputted
 
 
-var integer = 6;
+var integer = 10;
 var primeArray = [];
 
 //find whether its a prime number
 
 for (var i = 2; i <= integer; i++) {
 	while (integer % i == 0) {
-		console.log(integer)
+		//console.log(integer)
 		primeArray.push(i)
 		integer /= i 
 	}

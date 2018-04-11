@@ -22,7 +22,7 @@ namespace ChallengeSimpleDarts
             Player2 = new Player();
             Player2.Name = player2Name;
 
-            // is this needed?
+            // is this needed? Yes it is
             random = new Random();
         }
 
