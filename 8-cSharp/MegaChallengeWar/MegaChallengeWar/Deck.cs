@@ -24,64 +24,64 @@ namespace MegaChallengeWar
                 // Jack is 11, Queen is 12, King is 13, Ace is 14
 
                 // spades
-                new Card { Value = 2, Suit = "spade"},
-                new Card { Value = 3, Suit = "spade"},
-                new Card { Value = 4, Suit = "spade"},
-                new Card { Value = 5, Suit = "spade"},
-                new Card { Value = 6, Suit = "spade"},
-                new Card { Value = 7, Suit = "spade"},
-                new Card { Value = 8, Suit = "spade"},
-                new Card { Value = 9, Suit = "spade"},
-                new Card { Value = 10, Suit = "spade"},
-                new Card { Value = 11, Suit = "spade"},
-                new Card { Value = 12, Suit = "spade"},
-                new Card { Value = 13, Suit = "spade"},
-                new Card { Value = 14, Suit = "spade"},
+                new Card { Value = 2, ValueName = "2", Suit = "Spades"},
+                new Card { Value = 3, ValueName = "3", Suit = "Spades"},
+                new Card { Value = 4, ValueName = "4", Suit = "Spades"},
+                new Card { Value = 5, ValueName = "5", Suit = "Spades"},
+                new Card { Value = 6, ValueName = "6", Suit = "Spades"},
+                new Card { Value = 7, ValueName = "7", Suit = "Spades"},
+                new Card { Value = 8, ValueName = "8", Suit = "Spades"},
+                new Card { Value = 9, ValueName = "9", Suit = "Spades"},
+                new Card { Value = 10, ValueName = "10", Suit = "Spades"},
+                new Card { Value = 11, ValueName = "Jack", Suit = "Spades"},
+                new Card { Value = 12, ValueName = "Queen", Suit = "Spades"},
+                new Card { Value = 13, ValueName = "King", Suit = "Spades"},
+                new Card { Value = 14, ValueName = "Ace", Suit = "Spades"},
 
                 // diamonds
-                new Card { Value = 2, Suit = "diamond"},
-                new Card { Value = 3, Suit = "diamond"},
-                new Card { Value = 4, Suit = "diamond"},
-                new Card { Value = 5, Suit = "diamond"},
-                new Card { Value = 6, Suit = "diamond"},
-                new Card { Value = 7, Suit = "diamond"},
-                new Card { Value = 8, Suit = "diamond"},
-                new Card { Value = 9, Suit = "diamond"},
-                new Card { Value = 10, Suit = "diamond"},
-                new Card { Value = 11, Suit = "diamond"},
-                new Card { Value = 12, Suit = "diamond"},
-                new Card { Value = 13, Suit = "diamond"},
-                new Card { Value = 14, Suit = "diamond"},
+                new Card { Value = 2, ValueName = "2", Suit = "Diamonds"},
+                new Card { Value = 3, ValueName = "3", Suit = "Diamonds"},
+                new Card { Value = 4, ValueName = "4", Suit = "Diamonds"},
+                new Card { Value = 5, ValueName = "5", Suit = "Diamonds"},
+                new Card { Value = 6, ValueName = "6", Suit = "Diamonds"},
+                new Card { Value = 7, ValueName = "7", Suit = "Diamonds"},
+                new Card { Value = 8, ValueName = "8", Suit = "Diamonds"},
+                new Card { Value = 9, ValueName = "9", Suit = "Diamonds"},
+                new Card { Value = 10, ValueName = "10", Suit = "Diamonds"},
+                new Card { Value = 11, ValueName = "Jack", Suit = "Diamonds"},
+                new Card { Value = 12, ValueName = "Queen", Suit = "Diamonds"},
+                new Card { Value = 13, ValueName = "King", Suit = "Diamonds"},
+                new Card { Value = 14, ValueName = "Ace", Suit = "Diamonds"},
 
                 // hearts
-                new Card { Value = 2, Suit = "heart"},
-                new Card { Value = 3, Suit = "heart"},
-                new Card { Value = 4, Suit = "heart"},
-                new Card { Value = 5, Suit = "heart"},
-                new Card { Value = 6, Suit = "heart"},
-                new Card { Value = 7, Suit = "heart"},
-                new Card { Value = 8, Suit = "heart"},
-                new Card { Value = 9, Suit = "heart"},
-                new Card { Value = 10, Suit = "heart"},
-                new Card { Value = 11, Suit = "heart"},
-                new Card { Value = 12, Suit = "heart"},
-                new Card { Value = 13, Suit = "heart"},
-                new Card { Value = 14, Suit = "heart"},
+                new Card { Value = 2, ValueName = "2", Suit = "Hearts"},
+                new Card { Value = 3, ValueName = "3", Suit = "Hearts"},
+                new Card { Value = 4, ValueName = "4", Suit = "Hearts"},
+                new Card { Value = 5, ValueName = "5", Suit = "Hearts"},
+                new Card { Value = 6, ValueName = "6", Suit = "Hearts"},
+                new Card { Value = 7, ValueName = "7", Suit = "Hearts"},
+                new Card { Value = 8, ValueName = "8", Suit = "Hearts"},
+                new Card { Value = 9, ValueName = "9", Suit = "Hearts"},
+                new Card { Value = 10, ValueName = "10", Suit = "Hearts"},
+                new Card { Value = 11, ValueName = "Jack", Suit = "Hearts"},
+                new Card { Value = 12, ValueName = "Queen", Suit = "Hearts"},
+                new Card { Value = 13, ValueName = "King", Suit = "Hearts"},
+                new Card { Value = 14, ValueName = "Ace", Suit = "Hearts"},
 
                 // clubs
-                new Card { Value = 2, Suit = "club"},
-                new Card { Value = 3, Suit = "club"},
-                new Card { Value = 4, Suit = "club"},
-                new Card { Value = 5, Suit = "club"},
-                new Card { Value = 6, Suit = "club"},
-                new Card { Value = 7, Suit = "club"},
-                new Card { Value = 8, Suit = "club"},
-                new Card { Value = 9, Suit = "club"},
-                new Card { Value = 10, Suit = "club"},
-                new Card { Value = 11, Suit = "club"},
-                new Card { Value = 12, Suit = "club"},
-                new Card { Value = 13, Suit = "club"},
-                new Card { Value = 14, Suit = "club"}
+                new Card { Value = 2, ValueName = "2", Suit = "Clubs"},
+                new Card { Value = 3, ValueName = "3", Suit = "Clubs"},
+                new Card { Value = 4, ValueName = "4", Suit = "Clubs"},
+                new Card { Value = 5, ValueName = "5", Suit = "Clubs"},
+                new Card { Value = 6, ValueName = "6", Suit = "Clubs"},
+                new Card { Value = 7, ValueName = "7", Suit = "Clubs"},
+                new Card { Value = 8, ValueName = "8", Suit = "Clubs"},
+                new Card { Value = 9, ValueName = "9", Suit = "Clubs"},
+                new Card { Value = 10, ValueName = "10", Suit = "Clubs"},
+                new Card { Value = 11, ValueName = "Jack", Suit = "Clubs"},
+                new Card { Value = 12, ValueName = "Queen", Suit = "Clubs"},
+                new Card { Value = 13, ValueName = "King", Suit = "Clubs"},
+                new Card { Value = 14, ValueName = "Ace", Suit = "Clubs"},
 
             };
         }
@@ -90,7 +90,7 @@ namespace MegaChallengeWar
         // each players hand and removes it from the deck each time
         public string Deal(Player player1, Player player2)
         {
-            Shuffle();
+            shuffle();
             while (_cards.Count > 0)
             {
                 dealCard(player1);
@@ -100,7 +100,7 @@ namespace MegaChallengeWar
         }
 
         // shuffle the cards and put them in a random order
-        private void Shuffle()
+        private void shuffle()
         {
             List<Card> tempCards = new List<Card>();            
             while (_cards.Count > 0)
@@ -120,7 +120,7 @@ namespace MegaChallengeWar
             _cards.Remove(card);
 
             _sb.Append("<br/>" + player.Name + " is dealt the ");
-            _sb.Append(card.Value + " of " + card.Suit);
+            _sb.Append(card.ValueName + " of " + card.Suit);
         }
         
 

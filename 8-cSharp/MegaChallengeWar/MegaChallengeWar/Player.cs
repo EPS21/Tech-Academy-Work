@@ -13,7 +13,7 @@ namespace MegaChallengeWar
         // Constructor
         public Player()
         {
-            Name = "undefined";
+            Name = "unnamed";
             Cards = new List<Card>();
         }
     }

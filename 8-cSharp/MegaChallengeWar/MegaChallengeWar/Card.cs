@@ -6,8 +6,9 @@ using System.Web;
 namespace MegaChallengeWar
 {
     public class Card
-    {
+    {        
         public int Value { get; set; }
+        public string ValueName { get; set; }
         public string Suit { get; set; }
     }
 }
