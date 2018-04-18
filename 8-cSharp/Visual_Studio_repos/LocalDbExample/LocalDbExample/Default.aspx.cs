@@ -11,17 +11,21 @@ namespace LocalDbExample
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // assigning db to a new AcmeEntities database
-            AcmeEntities db = new AcmeEntities();
-                        
+            ACMEEntities db = new ACMEEntities();
+
             var customers = db.Customers;
 
             string result = "";
 
+            /*
             foreach (var customer in customers)
             {
                 result += "<p>" + customer.Name + "</p>";
             }
+            */
+
+            customersGridView.DataSource = customers.ToList();
+            customersGridView.DataBind();
 
             Label1.Text = result;
         }

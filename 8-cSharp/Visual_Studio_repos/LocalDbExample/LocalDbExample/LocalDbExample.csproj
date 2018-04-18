@@ -67,27 +67,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ACMEEntities.Context.tt">
+    <Content Include="ACMEEntities2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
-      <LastGenOutput>ACMEEntities.Context.cs</LastGenOutput>
+      <DependentUpon>ACMEEntities2.edmx</DependentUpon>
+      <LastGenOutput>ACMEEntities2.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="ACMEEntities.tt">
+    <Content Include="ACMEEntities2.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
-      <LastGenOutput>ACMEEntities.cs</LastGenOutput>
+      <DependentUpon>ACMEEntities2.edmx</DependentUpon>
+      <LastGenOutput>ACMEEntities2.cs</LastGenOutput>
     </Content>
-    <Content Include="App_Data\Acme.mdf" />
-    <Content Include="App_Data\Acme_log.ldf">
-      <DependentUpon>Acme.mdf</DependentUpon>
+    <Content Include="App_Data\ACME.mdf" />
+    <Content Include="App_Data\ACME_log.ldf">
+      <DependentUpon>ACME.mdf</DependentUpon>
     </Content>
     <Content Include="packages.config" />
-    <EntityDeploy Include="ACMEEntities.edmx">
+    <EntityDeploy Include="ACMEEntities2.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ACMEEntities.Designer.cs</LastGenOutput>
+      <LastGenOutput>ACMEEntities2.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="ACMEEntities.edmx.diagram">
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+    <Content Include="ACMEEntities2.edmx.diagram">
+      <DependentUpon>ACMEEntities2.edmx</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -102,23 +102,23 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACMEEntities.Context.cs">
+    <Compile Include="ACMEEntities2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ACMEEntities.Context.tt</DependentUpon>
+      <DependentUpon>ACMEEntities2.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ACMEEntities.cs">
+    <Compile Include="ACMEEntities2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ACMEEntities.tt</DependentUpon>
+      <DependentUpon>ACMEEntities2.tt</DependentUpon>
     </Compile>
-    <Compile Include="ACMEEntities.Designer.cs">
+    <Compile Include="ACMEEntities2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+      <DependentUpon>ACMEEntities2.edmx</DependentUpon>
     </Compile>
     <Compile Include="Customer.cs">
-      <DependentUpon>ACMEEntities.tt</DependentUpon>
+      <DependentUpon>ACMEEntities2.tt</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
