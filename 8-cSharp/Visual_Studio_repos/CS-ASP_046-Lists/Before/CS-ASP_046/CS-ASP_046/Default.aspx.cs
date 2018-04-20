@@ -23,6 +23,7 @@ namespace CS_ASP_046
             cars.Add(car2);
             cars.Add(car3);
 
+            // these crazy commands are Linq queries I think
             // This is a way to filter items by making a new list and filtering by a certain attribute
             //List<Car> whiteCars = cars.FindAll(p => p.Color == "White");
 
