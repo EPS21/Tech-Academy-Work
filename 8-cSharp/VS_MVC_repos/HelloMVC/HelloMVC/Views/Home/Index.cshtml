@@ -1,0 +1,93 @@
+﻿@model List<HelloMVC.Models.Car>
+@{
+    ViewBag.Title = "Index";
+    var value = 1000;
+}
+
+<h1>@ViewBag.EricCreatedThisValue</h1>
+<h2>me changed this</h2>
+<p>Hello warudo!</p>
+
+@{ 
+    value += 1;
+}
+
+@{ 
+    var name = "Bob";
+    var day = DateTime.Now.DayOfWeek.ToString();
+
+    <p>Howdy, @name. Today is @day.</p>
+    <p>Howdy, @name. Aren't @(day)s the best?</p>
+}
+
+@{ 
+    var productId = 123;
+    <p>Product ID: ACME@(productId)</p>
+}
+
+<p>Value: @value.ToString("C")</p>
+
+@foreach (var car in Model)
+{
+    <p>@car.Id - @car.Make - @car.Model</p>
+}
+
+@helper pluralizeChildren(int childCount) { 
+    @(childCount == 1 ? "child" : "children");
+}
+
+@{ 
+    var childCount = 1;
+    <p>I have @childCount @pluralizeChildren(@childCount).</p>
+}
+
+
+@helper pluralize(int amount, string singular, string plural)
+{
+    @(amount == 1 ? singular : plural)    
+}
+
+@{ 
+    var crisisCount = 2;
+    <p>Mr. President, there @pluralize(crisisCount, "is one crisis", "are " + crisisCount + " crises") you must deal with immediately.</p>
+}
+ 
+@* This is how you comment in Razer *@
+
+@*Conditional Statements*@
+<p>
+    Mr. President, there
+    @if (crisisCount == 1)
+    {
+        <span> is one crisis</span>
+    }
+    else
+    {
+        <span> are @crisisCount crises</span>
+    }
+    you must deal with immediately!
+</p>
+
+<p>
+    @{ 
+        var test = false;
+        if (!test)
+        {
+            @:Display This
+            <span> 
+                asdf asdf asdf
+                asdf asdf
+                asdf
+            </span>
+        }
+    }
+</p>
+
+@for (int i = 0; i < 10; i++)
+{
+    <p>@i</p>
+}
+
+@* Escape Characters (add second @ symbol)*@
+<p>bob@learnvisualstudio.net</p>
+<p>@@bobtabor</p>
