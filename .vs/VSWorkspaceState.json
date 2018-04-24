@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\8-cSharp",
+    "\\8-cSharp\\VS_MVC_repos\\ACME",
+    "\\8-cSharp\\VS_MVC_repos\\ACME\\ACME"
   ],
   "PreviewInSolutionExplorer": false
 }

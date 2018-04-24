@@ -7,7 +7,17 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create")<br />
+    @Html.ActionLink("Create V3", "Create", new RouteValueDictionary(new { locale = "cn-TW", year = DateTime.Now.Year.ToString()}))<br />
+
+    @{         
+        var myDictionary = new Dictionary<string, object>();
+        myDictionary.Add("First", "A");
+        myDictionary.Add("Second", "B");
+        myDictionary.Add("Third", "C");
+    }
+    @Html.ActionLink("Create V4", "Create", new RouteValueDictionary(myDictionary))
+
 </p>
 <table class="table">
     <tr>
@@ -29,7 +39,7 @@
             @Html.DisplayFor(modelItem => item.Price)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId, somesuch = 234234234}) |
             @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
         </td>
