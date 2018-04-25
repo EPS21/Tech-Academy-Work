@@ -36,6 +36,7 @@ namespace ACME.Controllers
         }
 
         // GET: Products/Create
+        [HttpGet]
         public ActionResult Create()
         {
             return View();
@@ -46,15 +47,38 @@ namespace ACME.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /* Default method here
         public ActionResult Create([Bind(Include = "ProductId,Name,Price")] Product product)
         {
-            if (ModelState.IsValid)
-            {
-                product.ProductId = Guid.NewGuid();
-                db.Products.Add(product);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+        */
+        public ActionResult Create(Product product)
+        {
+            // Default code
+            
+                if (ModelState.IsValid)
+                {
+                    product.ProductId = Guid.NewGuid();
+                    db.Products.Add(product);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                
+
+            // Example 1 -- Default constructor above
+            /*
+            var product = new Product();
+            product.ProductId = Guid.NewGuid();
+            product.Name = Request["Name"];
+            product.Price = Decimal.Parse(Request["Price"]);
+            */
+
+            // Example 2 -- Create(string Name, decimal Price)
+            /*
+            var product = new Product();            
+            product.ProductId = Guid.NewGuid();
+            product.Name = Name;
+            product.Price = Price;
+            */
 
             return View(product);
         }
