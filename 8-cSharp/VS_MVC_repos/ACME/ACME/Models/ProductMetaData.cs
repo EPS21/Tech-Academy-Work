@@ -21,6 +21,7 @@ namespace ACME.Models
 
             [Required]
             [RegularExpression(@"^\$?\d+(\.(\d{2}))?$")]
+            //[Range(0.01, 1000.0)]
             public decimal Price { get; set; }
         }
     }
