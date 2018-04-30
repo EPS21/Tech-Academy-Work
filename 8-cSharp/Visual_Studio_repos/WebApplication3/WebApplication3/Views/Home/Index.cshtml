@@ -1,0 +1,24 @@
+﻿@model List<WebApplication3.Models.MyModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h6>Hi</h6>
+<h5>Hi</h5>
+<h4>Hi</h4>
+
+<p>@ViewBag.asdf</p>
+<p>@ViewBag.zxcv</p>
+
+<p>
+    @foreach (var item in Model)
+    {
+        <p>@item.DoujinID</p>
+        <p>@item.DoujinName</p>
+        <p>@item.DoujinGenre</p>
+    }
+</p>
+
+<h2>Index</h2>
+
+

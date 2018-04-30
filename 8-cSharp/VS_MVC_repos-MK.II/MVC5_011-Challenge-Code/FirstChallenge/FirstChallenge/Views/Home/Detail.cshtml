@@ -1,0 +1,17 @@
+﻿@model FirstChallenge.Models.ComicBook
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Details About @Model.ComicTitle @Model.ComicBookId</h2>
+<h3>Episode Title: @Model.EpisodeTitle</h3>
+<p>
+    <strong>Starring:</strong> 
+    @foreach (var item in Model.Characters)
+    {
+        <p>@item.Name</p>
+    }    
+</p>
+
+@Html.ActionLink("Back to Index", "Index")
+
