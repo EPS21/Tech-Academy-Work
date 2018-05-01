@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MonsterDB.Models.Monster>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Monster_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monster_HP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monster_Race)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Monster_Property)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monster_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monster_HP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monster_Race)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monster_Property)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Monster_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Monster_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Monster_ID })
+        </td>
+    </tr>
+}
+
+</table>

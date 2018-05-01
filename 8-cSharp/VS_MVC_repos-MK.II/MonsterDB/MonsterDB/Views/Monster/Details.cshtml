@@ -1,0 +1,50 @@
+﻿@model MonsterDB.Models.Monster
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Monster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Monster_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monster_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monster_HP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monster_HP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monster_Race)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monster_Race)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monster_Property)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monster_Property)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Monster_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

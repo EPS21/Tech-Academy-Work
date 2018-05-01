@@ -1,4 +1,6 @@
-﻿@{
+﻿@model WebApplication1.Models.Monster
+
+@{
     ViewBag.Title = "MyPage";
 }
 
@@ -8,23 +10,32 @@
 
 <p>Hello uwu</p>
 
-<p>@ViewBag.a @ViewBag.b</p>
+<p>
+    @Model.Name <br />
+    @Model.HP   <br />
+    @Model.Property <br />
+    @Model.Race <br />
+</p>
 
+<!--
+<p>@ViewBag.a @ViewBag.b</p>
+-->
+<!--
 <p>
     @foreach (var item in ViewBag.List)
     {
-        <p>@item</p>
-    }
-</p>
+    <p>@item</p>
+}
+    </p>
+-->
 
 
+    @Html.ActionLink("Back to how much I rule", "Index")
 
-@Html.ActionLink("Back to how much I rule", "Index")
-
-<div class="form-horizontal">
-    <input type="color" />
-    <input type="button" value="Click me I do nothing uwu" class="btn-danger" />
-</div>
+    <div class="form-horizontal">
+        <input type="color" />
+        <input type="button" value="Click me I do nothing uwu" class="btn-danger" />
+    </div>
 
 
 

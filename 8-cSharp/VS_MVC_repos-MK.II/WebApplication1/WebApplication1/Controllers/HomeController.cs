@@ -29,6 +29,12 @@ namespace WebApplication1.Controllers
 
         public ActionResult MyPage()
         {
+            var monster = new Models.Monster();
+            monster.Name = "poring";
+            monster.HP = 21;
+            monster.Race = "Formless";
+            monster.Property = "Water1";
+
             ViewBag.a = 1;
             ViewBag.b = 2;
             ViewBag.List = new List<int>() { 1, 2, 3 };        
@@ -38,7 +44,7 @@ namespace WebApplication1.Controllers
 
             ViewBag.Message = "My new page thing";
 
-            return View();
+            return View(monster);
         }
     }
 }

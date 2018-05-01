@@ -49,11 +49,10 @@ namespace ExcelToDB.Controllers
                 if (FileUpload.ContentType == "application/vnd.ms-excel" || FileUpload.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                 {
 
-
-                    //string filename = FileUpload.FileName;
-                    string filename = "Users.xls";
-                    //string targetpath = Server.MapPath("~/Doc/");
-                    string targetpath = "C:/Users/EPS21/";
+                    string filename = FileUpload.FileName;
+                    //string filename = "Users.xls";
+                    string targetpath = Server.MapPath("~/Doc/");
+                    //string targetpath = "C:/Users/EPS21/";
                     FileUpload.SaveAs(targetpath + filename);
                     string pathToExcelFile = targetpath + filename;
                     var connectionString = "";
@@ -77,8 +76,7 @@ namespace ExcelToDB.Controllers
 
                     var excelFile = new ExcelQueryFactory(pathToExcelFile);
                     var artistAlbums = from a in excelFile.Worksheet<User>(sheetName) select a;
-
-                    
+                                        
 
                     foreach (var a in artistAlbums)
                     {
@@ -131,12 +129,12 @@ namespace ExcelToDB.Controllers
                         }
                     }
                     //deleting excel file from folder
-                    /*
+                    
                     if ((System.IO.File.Exists(pathToExcelFile)))
                     {
                         System.IO.File.Delete(pathToExcelFile);
                     }
-                    */
+                    
                     return Json("success", JsonRequestBehavior.AllowGet);
                     //return RedirectToAction("Index");
                     
