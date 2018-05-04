@@ -1,7 +1,62 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@model MonsterDB.Models.Monster
 
-<p>Use this area to provide additional information.</p>
+@{
+    ViewBag.Title = "About MonsterDB Importer"; // In the tab
+}
+<h2>@ViewBag.Title</h2>
+@*<h3>@ViewBag.Message</h3>*@
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
+<div>
+    <p>
+        This is an application where you can view a data base of monsters, <br />
+        add them manually via the MonDB tab, or import your own Excel file <br />
+        (in the same format as the table looks) to add an excel table to the list
+    </p>
+</div>
+
+<div>
+    <p>
+        For example, you will want to make a table that looks like this (must have the same header names)
+    </p>
+        <table>
+            <tr>
+                <th>Monster_ID</th>
+                <th>Monster_Name</th>
+                <th>Monster_HP</th>
+                <th>Monster_Race</th>
+                <th>Monster_Property</th>
+            </tr>
+            <tr>
+                <td>@Model.Monster_ID</td>
+                <td>@Model.Monster_Name</td>
+                <td>@Model.Monster_HP</td>
+                <td>@Model.Monster_Race</td>
+                <td>@Model.Monster_Property</td>
+            </tr>
+        </table>
+</div>
+<br />
+<div>
+    <p>
+        Then save it, and go to the import tab and you can upload it there <br />
+        and see it added in the MonDB page!
+    </p>
+</div>

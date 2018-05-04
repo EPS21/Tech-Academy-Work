@@ -30,6 +30,8 @@ namespace MonsterDB.Models
         public string Monster_Property { get; set; }
     }
 
+    // TODO change race and property from strings to enums
+
     /*
     public enum Monster_Race
     {

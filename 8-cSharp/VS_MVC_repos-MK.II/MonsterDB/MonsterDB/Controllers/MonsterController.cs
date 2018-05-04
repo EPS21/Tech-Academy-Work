@@ -80,6 +80,7 @@ namespace MonsterDB.Controllers
                 }
                 catch (Exception ex)
                 {
+                    // If some other error, displays error message and deletes file from server
                     ViewBag.Message = "Error: " + ex.Message;
                     if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
                 }                

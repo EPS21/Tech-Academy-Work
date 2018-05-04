@@ -15,9 +15,16 @@ namespace MonsterDB.Controllers
 
         public ActionResult About()
         {
+            MonsterDB.Models.Monster exampleMonster = new Models.Monster();
+            exampleMonster.Monster_ID = 1001;
+            exampleMonster.Monster_Name = "Popoporing";
+            exampleMonster.Monster_HP = 6969;
+            exampleMonster.Monster_Race = "Formless";
+            exampleMonster.Monster_Property = "Water 2";
+
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return View(exampleMonster);
         }
 
         public ActionResult Contact()
