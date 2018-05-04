@@ -6,98 +6,14 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using MonsterDB.Models;
-using MonsterDB.DAL;
-using LinqToExcel;
-using System.IO;
+using MonsterDB2.DAL;
+using MonsterDB2.Models;
 
-namespace MonsterDB.Controllers
+namespace MonsterDB2.Controllers
 {
     public class MonsterController : Controller
     {
-        // Original context to premade database
-        //private MonDBEntities db = new MonDBEntities();
-
         private MonsterContext db = new MonsterContext();
-
-
-        // GET Import
-        public ActionResult Import()
-        {
-            return View();
-        }
-
-        // POST Import
-        // The main import page to import a .xls or .xlsx Excel file
-        // And add its rows to the monster database 
-        [HttpPost]
-        public ActionResult Import(HttpPostedFileBase file)
-        {
-            // Currently only works with .xls files
-            // TODO add .xlsx file support
-            if (file != null && file.ContentLength > 0 && 
-               (file.FileName.EndsWith(".xls") || file.FileName.EndsWith(".xlsx")) )
-            {
-                // Getting file path of uploaded file with System.IO 
-                string path = Path.Combine(Server.MapPath("~/App_Data/"),
-                              Path.GetFileName(file.FileName));
-                try
-                {
-                    /*            
-                    string fileName = Path.GetFileName(file.FileName);
-                    string targetPath = Server.MapPath("~/App_Data/");
-                    file.SaveAs(targetPath + fileName);
-                    string path = targetPath + fileName;
-                    */
-                    
-                    file.SaveAs(path);
-                    ViewBag.Message = "File uploaded successfully";
-
-                    // LinqToExcel package to read Excel files
-                    var excel = new ExcelQueryFactory();
-                    excel.FileName = path;
-                    var monsters = from x in excel.Worksheet<Monster>()
-                                   select x;
-
-                    // Iterating through read excel file and adding each row as a new monster
-                    // into the monster database
-                    foreach (var x in monsters)
-                    {
-                        Monster newMonster = new Monster();
-
-                        newMonster.Monster_ID = x.Monster_ID;
-                        newMonster.Monster_Name = x.Monster_Name;
-                        newMonster.Monster_HP = x.Monster_HP;
-                        newMonster.Monster_Race = x.Monster_Race;
-                        newMonster.Monster_Property = x.Monster_Property;
-                        db.Monsters.Add(newMonster);
-                        db.SaveChanges();
-                    }
-
-                    // Delete the file from server after it has added entries to db
-                    if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
-                    
-                }
-                catch (Exception ex)
-                {
-                    ViewBag.Message = "Error: " + ex.Message;
-                    if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
-                }                
-
-            }
-            else if (file == null)
-            {
-                ViewBag.Message = "You have not specified a file";
-            }
-            else
-            {
-                ViewBag.Message = "Please input an Excel file";
-            }
-
-            
-            return View();
-        }
-
 
         // GET: Monster
         public ActionResult Index()
