@@ -184,6 +184,10 @@
     <Compile Include="Migrations\201804300530084_ComplexDataModel.Designer.cs">
       <DependentUpon>201804300530084_ComplexDataModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805072002454_ComplexDataModel1.cs" />
+    <Compile Include="Migrations\201805072002454_ComplexDataModel1.Designer.cs">
+      <DependentUpon>201805072002454_ComplexDataModel1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -280,6 +284,9 @@
     <EmbeddedResource Include="Migrations\201804300530084_ComplexDataModel.resx">
       <DependentUpon>201804300530084_ComplexDataModel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805072002454_ComplexDataModel1.resx">
+      <DependentUpon>201805072002454_ComplexDataModel1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -295,7 +302,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49999</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

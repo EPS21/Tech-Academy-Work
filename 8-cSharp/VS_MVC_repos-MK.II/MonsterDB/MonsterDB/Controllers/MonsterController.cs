@@ -101,10 +101,73 @@ namespace MonsterDB.Controllers
 
 
         // GET: Monster
+        /* Original Index method
         public ActionResult Index()
         {
             return View(db.Monsters.ToList());
         }
+        */
+
+        public ViewResult Index(string sortOrder, string searchString)
+        {
+            ViewBag.IdSortParm = String.IsNullOrEmpty(sortOrder) ? "id_desc" : "";
+            ViewBag.NameSortParm = sortOrder == "name" ? "name_desc" : "name";
+            ViewBag.HPSortParm = sortOrder == "hp" ? "hp_desc" : "hp";
+            ViewBag.RaceSortParm = sortOrder == "race" ? "race_desc" : "race";
+            ViewBag.PropertySortParm = sortOrder == "prop" ? "prop_desc" : "prop";
+
+
+            var monsters = from s in db.Monsters
+                           select s;
+
+            // If something is in the search string, search in Name, Property, and Race columns
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                monsters = monsters.Where(s => s.Monster_Name.Contains(searchString)
+                                        || s.Monster_Property.Contains(searchString)
+                                        || s.Monster_Race.Contains(searchString));
+            }
+
+            switch (sortOrder)
+            {
+                // Name Sort
+                case "name_desc":
+                    monsters = monsters.OrderByDescending(s => s.Monster_Name); break;
+                case "name":
+                    monsters = monsters.OrderBy(s => s.Monster_Name); break;
+
+                // HP Sort
+                case "hp_desc":
+                    monsters = monsters.OrderByDescending(s => s.Monster_HP); break;
+                case "hp":
+                    monsters = monsters.OrderBy(s => s.Monster_HP); break;               
+
+                // Race Sort
+                case "race_desc":
+                    monsters = monsters.OrderByDescending(s => s.Monster_Race); break;
+                case "race":
+                    monsters = monsters.OrderBy(s => s.Monster_Race); break;
+
+                // Property Sort
+                case "prop_desc":
+                    monsters = monsters.OrderByDescending(s => s.Monster_Property); break;
+                case "prop":
+                    monsters = monsters.OrderBy(s => s.Monster_Property); break;
+
+                // ID sort and default
+                case "id_desc":
+                    monsters = monsters.OrderByDescending(s => s.Monster_ID);
+                    break;
+                default:
+                    monsters = monsters.OrderBy(s => s.Monster_ID);
+                    break;
+            }
+
+            return View(monsters.ToList());
+        }
+
+
+
 
         // GET: Monster/Details/5
         public ActionResult Details(int? id)

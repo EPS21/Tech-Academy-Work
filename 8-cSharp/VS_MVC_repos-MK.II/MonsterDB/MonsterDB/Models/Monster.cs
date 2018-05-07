@@ -15,10 +15,12 @@ namespace MonsterDB.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public partial class Monster
     {
-        [Key]
+        // NEED THIS TO MAKE YOUR OWN PRIMARY KEY VALUES
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Monster_ID { get; set; }
         [Required(ErrorMessage = "Monster needs a name"), StringLength(50, MinimumLength = 2)]
         public string Monster_Name { get; set; }
