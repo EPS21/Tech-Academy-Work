@@ -4,27 +4,43 @@
     ViewBag.Title = "Import";
 }
 
+
+
 <h2>Import</h2>
 <h4>Add Monsters via Excel</h4>
 
 @using (Html.BeginForm("Import", "Monster", FormMethod.Post, new { enctype = "multipart/form-data" }))
 
 {
-    <div class="form-horizontal">
+<div class="form-horizontal">
 
-        <div class="form-group">
-            <input type="file" id="file" name="file" class="" />
-        </div>
-
-        <div class="form-group">
-            <input type="submit" value="Upload Excel File" id="SubmitBtn" class="btn-primary" />
-        </div>
-
-        @ViewBag.Message
-
+    <div class="form-group">
+        <input type="file" id="file" name="file" class="" />
     </div>
 
+    <div class="form-group">
+        <input type="submit" value="Upload Excel File" id="SubmitBtn" class="btn-primary" />
+    </div>
+
+
+
+    @{
+        @ViewBag.Message
+        if (FormMethod.Post.Equals(true))
+        {
+
+            <meta http-equiv="refresh" content="3; 'Index'" />
+        }
+
+    }
+
+
+
+</div>
+
 }
+
+    
 
 
 

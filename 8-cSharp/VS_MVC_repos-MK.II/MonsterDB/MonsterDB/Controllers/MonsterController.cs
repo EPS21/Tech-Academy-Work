@@ -10,6 +10,7 @@ using MonsterDB.Models;
 using MonsterDB.DAL;
 using LinqToExcel;
 using System.IO;
+using System.Threading;
 
 namespace MonsterDB.Controllers
 {
@@ -83,6 +84,7 @@ namespace MonsterDB.Controllers
                     // If some other error, displays error message and deletes file from server
                     ViewBag.Message = "Error: " + ex.Message;
                     if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
+                    //return RedirectToAction("Index");
                 }                
 
             }
@@ -95,7 +97,11 @@ namespace MonsterDB.Controllers
                 ViewBag.Message = "Please input an Excel file";
             }
 
+            // Trying to get page to redirect after uploading and showing msg
             
+            // Works but doesn't display messages
+            //Thread.Sleep(3000);
+            //return RedirectToAction("Index");
             return View();
         }
 
@@ -115,7 +121,6 @@ namespace MonsterDB.Controllers
             ViewBag.HPSortParm = sortOrder == "hp" ? "hp_desc" : "hp";
             ViewBag.RaceSortParm = sortOrder == "race" ? "race_desc" : "race";
             ViewBag.PropertySortParm = sortOrder == "prop" ? "prop_desc" : "prop";
-
 
             var monsters = from s in db.Monsters
                            select s;
