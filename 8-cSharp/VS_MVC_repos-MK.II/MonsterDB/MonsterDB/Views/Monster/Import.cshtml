@@ -22,19 +22,17 @@
         <input type="submit" value="Upload Excel File" id="SubmitBtn" class="btn-primary" />
     </div>
 
-
-
     @{
-        @ViewBag.Message
-        if (FormMethod.Post.Equals(true))
+        if (ViewBag.Message == "File uploaded successfully")
         {
-
+            @ViewBag.Message
             <meta http-equiv="refresh" content="3; 'Index'" />
         }
-
-    }
-
-
+        else
+        {
+            @ViewBag.Message
+        }
+    }    
 
 </div>
 

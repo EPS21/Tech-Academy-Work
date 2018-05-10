@@ -7,12 +7,23 @@ public class CubeController : MonoBehaviour
     Vector3 Move;
     float CamWidthX = 6.2f;
     float CamHeightY = 3.4f;
+    float Speed = 0.08f;
+
+    float LeftEdge;
+    float RightEdge;
+    float BottomEdge;
+    float TopEdge;
 
 
 	// Use this for initialization
 	void Start ()
     {
         Move = transform.position;
+
+        LeftEdge = CamWidthX * -1;
+        RightEdge = CamWidthX;
+        BottomEdge = CamHeightY * -1;
+        TopEdge = CamHeightY;
 	}
 	
 	// Update is called once per frame
@@ -20,16 +31,16 @@ public class CubeController : MonoBehaviour
     {
         // Movement
         if (Input.GetKey(KeyCode.A))
-            Move.x -= 0.09f;
+            Move.x -= Speed;
 
         if (Input.GetKey(KeyCode.D))
-            Move.x += 0.09f;
+            Move.x += Speed;
 
         if (Input.GetKey(KeyCode.W))
-            Move.y += 0.09f;
+            Move.y += Speed;
 
         if (Input.GetKey(KeyCode.S))
-            Move.y -= 0.09f;
+            Move.y -= Speed;
 
         transform.position = Move;
 	}
@@ -37,15 +48,16 @@ public class CubeController : MonoBehaviour
     private void LateUpdate()
     {
         // Check if at the edge of screen and constrain movement if reached
+        // Reversed for pac-man like wall properties (move to other side)
 
-        if (transform.position.x < CamWidthX * -1)
-            Move.x = CamWidthX * -1;
-        if (transform.position.x > CamWidthX * 1)
-            Move.x = CamWidthX * 1;
-        if (transform.position.y < CamHeightY * -1)
-            Move.y = CamHeightY * -1;
-        if (transform.position.y > CamHeightY * 1)
-            Move.y = CamHeightY * 1;
+        if (transform.position.x < LeftEdge)
+            Move.x = RightEdge;
+        if (transform.position.x > RightEdge)
+            Move.x = LeftEdge;
+        if (transform.position.y < BottomEdge)
+            Move.y = TopEdge;
+        if (transform.position.y > TopEdge)
+            Move.y = BottomEdge;
 
         transform.position = Move;
     }

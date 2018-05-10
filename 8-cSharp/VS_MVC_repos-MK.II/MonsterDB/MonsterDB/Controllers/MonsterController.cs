@@ -34,8 +34,7 @@ namespace MonsterDB.Controllers
         [HttpPost]
         public ActionResult Import(HttpPostedFileBase file)
         {
-            // Currently only works with .xls files
-            // TODO add .xlsx file support
+            // Currently only works with .xls files (xlxs if Excel is properly installed?)            
             if (file != null && file.ContentLength > 0 && 
                (file.FileName.EndsWith(".xls") || file.FileName.EndsWith(".xlsx")) )
             {
@@ -96,15 +95,10 @@ namespace MonsterDB.Controllers
             {
                 ViewBag.Message = "Please input an Excel file";
             }
-
-            // Trying to get page to redirect after uploading and showing msg
             
-            // Works but doesn't display messages
-            //Thread.Sleep(3000);
             //return RedirectToAction("Index");
             return View();
         }
-
 
         // GET: Monster
         /* Original Index method
@@ -116,6 +110,7 @@ namespace MonsterDB.Controllers
 
         public ViewResult Index(string sortOrder, string searchString)
         {
+            // Have sorting in columns controlled by hyperlink in column name
             ViewBag.IdSortParm = String.IsNullOrEmpty(sortOrder) ? "id_desc" : "";
             ViewBag.NameSortParm = sortOrder == "name" ? "name_desc" : "name";
             ViewBag.HPSortParm = sortOrder == "hp" ? "hp_desc" : "hp";

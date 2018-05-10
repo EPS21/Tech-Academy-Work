@@ -222,6 +222,7 @@
   <ItemGroup>
     <Compile Include="Assets\CubeController.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\SphereController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextFile1.txt" />
