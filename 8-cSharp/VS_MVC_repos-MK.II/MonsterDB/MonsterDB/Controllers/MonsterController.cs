@@ -230,7 +230,7 @@ namespace MonsterDB.Controllers
         public ActionResult Edit([Bind(Include = "Monster_ID,Monster_Name,Monster_HP,Monster_Race,Monster_Property")] Monster monster)
         {
             if (ModelState.IsValid)
-            {
+            {                
                 db.Entry(monster).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
