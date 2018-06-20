@@ -1,0 +1,5 @@
+Product Backlog Item 141: UI - Update the Admin User Details Modal to actually contain the data in an organized fashion
+
+Description: When first selecting the Admin panel, a list of users is displayed.  Clicking on "Details" next to each user pops up a modal that contains data.  that Data is poorly contained inside the modal. Make it so all data is inside the modal. 
+
+The previously written Ajax call was overridding elements in the details modal such as the header and footer, so I had to rewrite the call to be properly contained within the modal body, and using a dynamic identifier (as the number of users on that list can change and is not static), when clicked calls the ajax function which will fill in the users data into a table format by using a partial view, and then open the modal so one can view more details about this user without having redirect to another page, creating a better user experience.
