@@ -146,6 +146,11 @@ section {
 	/* background-color: rgba(255, 255, 255, 0.5); */
 }
 
+audio {
+	width: 300px;
+	height: 40px;
+}
+
 /*=======================================
   HOME SECTION STYLES
   =======================================*/
@@ -348,7 +353,7 @@ footer {
 }
   
   /*=======================================
-  @MEDIA QUERIES <-- this is a thing that helps for login pages and stuff
+  @MEDIA QUERIES <-- this is a thing that helps for login pages
   =======================================*/
 @media all and (max-width:640px) and (min-width:381px) {
     .head-main { 

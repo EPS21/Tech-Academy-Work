@@ -43,7 +43,7 @@ namespace MonsterDB.Controllers
                               Path.GetFileName(file.FileName));
                 try
                 {
-                    /*             
+                    /* Old file pathing            
                     string fileName = Path.GetFileName(file.FileName);
                     string targetPath = Server.MapPath("~/App_Data/");
                     file.SaveAs(targetPath + fileName);

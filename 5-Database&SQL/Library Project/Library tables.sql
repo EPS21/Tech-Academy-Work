@@ -1,6 +1,18 @@
+/*********************************************************************
+ ********** Transact-SQL Example Library Database project ************
+ * This is an example of creating a SQL database for seven different *
+ * joined tables for a library resource tracking system including	 *
+ * book information, library branches, library patrons and their	 *
+ * checkout records.												 *
+ *********************************************************************/
+
+CREATE DATABASE db_books;
+GO
 
 USE db_books;
+GO
 
+/* Drops all the tables if they exist and re-creates them (useful for changing table values often) */
 IF Exists (Select 1 FROM INFORMATION_SCHEMA.TABLES BOOK_LOANS)
 DROP TABLE BOOK_LOANS, BORROWER, BOOK_COPIES, LIBRARY_BRANCH, BOOK_AUTHORS, BOOK, PUBLISHER;
 
@@ -176,7 +188,7 @@ SELECT * FROM BORROWER
 
 INSERT INTO BOOK_LOANS
 	(BookID, BranchID, CardNo, DateOut, DueDate)
-	VALUES --hooory ship yep its gonna be a loooong list tahts 50 of em
+	VALUES
 	
 	(01 , 1, 101, '01-01-2000', convert(date, getdate())), (09 , 1, 105, '02-15-2018', convert(date, getdate())), 
 	(02 , 1, 101, '01-01-2000', '01-15-2000'), (10 , 1, 105, '02-15-2018', '03-01-2018'), 

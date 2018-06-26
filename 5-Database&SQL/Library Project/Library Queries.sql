@@ -1,3 +1,10 @@
+/***********************************************************
+ * These are the query statements that are saved as stored *
+ * procedures which can be run with different values	   *
+ * depending on what you want to display *******************
+ ***********************************************************/
+
+/* Some queries for testing */
 select * from book
 select * from book order by bookid asc
 select * from book where Title like 'w%';
@@ -31,21 +38,6 @@ SELECT
 ;
 GO
 exec [dbo].[howManyInEachLibrary] @Title = 'The Lost Tribe'
-
-/*
-DECLARE @LoopCounter INT = 1
-WHILE (@LoopCounter <=4)
-BEGIN
-SELECT 
-	No_Of_Copies
-	FROM BOOK_COPIES
-	INNER JOIN BOOK ON BOOK.BookID = BOOK_COPIES.BookID
-	INNER JOIN LIBRARY_BRANCH ON LIBRARY_BRANCH.BranchID = BOOK_COPIES.BranchID	
-	WHERE Title = 'The Lost Tribe'
-	AND LIBRARY_BRANCH.BranchID = @LoopCounter
-END
-GO
-*/
 
 --3. Retrieve the names of all borrowers who do not have any books checked out.
 CREATE PROC noBooksCheckedOut
@@ -83,7 +75,7 @@ SELECT
 GO
 exec [dbo].[booksDueToday] @BranchName = 'Sharpstown'
 
-/* Notes */
+/* More Notes */
 select month(getdate())
 select convert(varchar(11), getdate())
 SELECT sysdatetime()
