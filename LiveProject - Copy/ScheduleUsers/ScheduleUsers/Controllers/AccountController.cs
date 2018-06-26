@@ -97,8 +97,7 @@ namespace ScheduleUsers.Controllers
         public async Task<String> Login(LoginViewModel model, string returnUrl)
         {
             if (!ModelState.IsValid)
-            {
-                //return View(model);
+            {                
                 ViewBag.SubmitValue = "Clock In";
             }
 
@@ -106,21 +105,19 @@ namespace ScheduleUsers.Controllers
             // To enable password failures to trigger account lockout, change to shouldLockout: true
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
             
+            // Returns different codes whether the login succeeded or not
             switch (result)
             {
-                case SignInStatus.Success:                    
-                    //return RedirectToAction("LoginRoute");                    
+                case SignInStatus.Success:
                     return "Success";
                 case SignInStatus.LockedOut:
-                    //return View("Lockout");
                     return "Lockout";
                 case SignInStatus.RequiresVerification:
                     //return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                     return "RequiresVerification";
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
-                    //return View(model);
+                    ModelState.AddModelError("", "Invalid login attempt.");                   
                     return "Invalid";
             }
         }
@@ -172,14 +169,13 @@ namespace ScheduleUsers.Controllers
             }
         }
 
-
-        // POST: /Account/VerifyUser
-        // Verify User to make sure they exist when user clicks Clock In 
-
         // Non Async ver
         //public JsonResult VerifyUser(LoginViewModel workTimeEvent, string ButtonType, string returnUrl)
 
         // Async ver
+
+        // POST: /Account/VerifyUser
+        // Verify User to make sure they exist when user clicks Clock In 
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -192,11 +188,10 @@ namespace ScheduleUsers.Controllers
 
             // Grabs user hashed PW from Db and PW user typed in and check is they match
             var result = ph.VerifyHashedPassword(dbUser.PasswordHash, workTimeEvent.Password);
-
+            
             // If Login button is pressed
             if (ButtonType == "Login")
-            {
-                //var s = Login(workTimeEvent, returnUrl);
+            {                
                 var s = await Login(workTimeEvent, returnUrl);
                 if (s == "Success")
                 {
@@ -228,10 +223,7 @@ namespace ScheduleUsers.Controllers
                 //return View("~/Views/Account/Login.cshtml");
                 return Json(new ClockInViewModel());
             }
-
-            //else return View(workTimeEvent);
-            //else return Content("Blob");
-
+            
             // Else return a ClockInViewModel who returns true for valid user
             else return Json(new ClockInViewModel(dbUser, true, db));           
 

@@ -61,6 +61,7 @@ li
 hr
 {
 //	margin-bottom: 30px;
+	background-color: rgb(0, 0, 255);
 }
 
 /****************************
@@ -129,7 +130,7 @@ ul {
 {
 	float:right;
 	width:640px; padding-left: 10px;
-	margin-top: -10px;
+	margin-top: 0px;
 }
 .work-job-title{
 	font-weight: bold;
