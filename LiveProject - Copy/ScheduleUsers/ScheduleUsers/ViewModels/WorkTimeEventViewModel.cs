@@ -121,6 +121,7 @@ namespace ScheduleUsers.ViewModels
 
             // Displays just the start time of the unfinishedEvent from a previous day
             ClockInOut += unfinishedEvent.Start.ToShortTimeString();
+            ClockInOut += " - " + unfinishedEvent.Start.DayOfWeek;
 
             // checks the number of messages from WorkTimeEventController and sends the message notification
             if (newMessages > 0)
