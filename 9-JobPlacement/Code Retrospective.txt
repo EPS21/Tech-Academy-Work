@@ -1,0 +1,14 @@
+1)Complete the essay on the Live Project Course in the LMS
+
+2)This is not to be turned in to me but rather done for your own benefit to ease your workload going into job placement. Take stock of all the aspects of this project you've worked on. Look through the changesets and make sure you've made note of everything you've done during this Live Project so you can add it to your resume which you will be working on with Aaron in the Job Placement course. 
+
+Take screenshots of your work and how it displays on the browser and snippets of the code and assemble them in a github repository so that they can be viewed by potential employers. (because this is a website for a client, you can't throw all the source code up on GitHu,b but you do have permission to throw up code snippets that you worked on.
+
+Here's a link to a live project snippet set, it is missing a good Readme file but I highly encourage you to include one.
+Mycomycul
+
+3)Imagine that you are talking to a recruiter or hiring manager with a background in programming.  They ask "Tell me about the project and your role".  Sum it up with as many relevant keywords in a short, succinct and thorough manner. Consider the project type, the planning, what you needed to do and how you went about it.  HR professionals don't want to hear about <h1> etc., they want to hear technologies, problems and solutions, and features. Remember that they've never seen your github or the project. Also consider any follow up questions like "What was a difficulty and how did you handle it".  If you'd like, present this to your Live Project Director so they can help you hone your delivery.
+
+4) Now that you are heading into the Job Placement Course you should have a clean portfolio repository up on your Github and your portfolio site should be in good shape as you will be sending hiring managers that way. You can always keep modifying and updating your portfolio site but make sure that it is currently presentable and update it with your live project  experience. 
+
+

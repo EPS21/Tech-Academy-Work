@@ -100,7 +100,16 @@ hr
 
 ul {
 	margin: 0 0 0 -16px;
+	font-size: 11pt;
 }
+
+.project-description {
+	margin-left: 1em;
+	font-size: 12pt;
+}
+
+
+
 /*******************************
 	General Entry Categories
 ********************************/

@@ -74,7 +74,7 @@
                             <div class="modal-header">
                                 @* TODO : Make clock in and out change depending on userverification or something *@
                                 @* TODO : Make firstname lastname change depending who is logging in *@
-                                <h5 class="modal-title" id="clockInOutTitle">CLOCK IN/OUT@*- FIRSTNAME LASTNAME*@</h5>
+                                <h5 class="modal-title" id="clockInOutTitle"></h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -128,7 +128,8 @@
             }
             // When Clock in/out button is pressed
             else if (data.ValidUser == true && data.MyProperty == null) {
-                //alert("You are a valid user! ValidUser is " + data.ValidUser);                
+                //alert("You are a valid user! ValidUser is " + data.ValidUser);    
+                // Show modal if they are a valid user
                 $('#clock-in-modal').modal('handleUpdate');
                 $('#clock-in-modal').modal('show'); 
             }
