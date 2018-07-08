@@ -9,11 +9,15 @@ public class SphereController : MonoBehaviour
     float Speed = 0.09f;
     public Vector2 Distance;
 
+    public int Timer;
+    Vector3 RandomSpawn;
+
 	// Use this for initialization
 	void Start ()
     {
         // Reference to our Cube/Player1 GameObject
-        CubeReference = GameObject.Find("Cube1");		
+        CubeReference = GameObject.Find("Cube1");
+        Timer = 1;
 	}
 	
 	// Update is called once per frame
@@ -36,6 +40,15 @@ public class SphereController : MonoBehaviour
             Debug.Log("You have been eaten!");
         }
         
+        // Spawn duplicate enemies every 500 tick
+        if(Timer % 500 == 0)
+        {
+            RandomSpawn.x = Random.Range(-6.2f, 6.2f);
+            RandomSpawn.y = Random.Range(-3.4f, 3.4f);
+            RandomSpawn.z = transform.position.z;
+            GameObject.Instantiate(this.gameObject, RandomSpawn, transform.rotation); // this.gameObject 'this' is for making another sphere object (and not something else)
+        }
+        Timer++;
               
 
 	}

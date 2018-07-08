@@ -43,7 +43,7 @@ namespace MonsterDB.Controllers
                               Path.GetFileName(file.FileName));
                 try
                 {
-                    /* Old file pathing            
+                    /* Old file pathing
                     string fileName = Path.GetFileName(file.FileName);
                     string targetPath = Server.MapPath("~/App_Data/");
                     file.SaveAs(targetPath + fileName);
@@ -78,10 +78,13 @@ namespace MonsterDB.Controllers
                     if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
                     
                 }
+
+                
+                // General Exception
                 catch (Exception ex)
                 {
                     // If some other error, displays error message and deletes file from server
-                    ViewBag.Message = "Error: " + ex.Message;
+                    ViewBag.Message = "Error: " + ex.Message + " (maybe duplicate monster ID values?).";
                     if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
                     //return RedirectToAction("Index");
                 }                

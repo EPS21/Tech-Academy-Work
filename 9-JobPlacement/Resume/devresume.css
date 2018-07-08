@@ -36,16 +36,27 @@ li
 #header .name
 {	
 //	letter-spacing: 4pt; 
-	font-weight:bold;
+	font-weight: bold;
 	font-size: 28pt;
 	text-transform: uppercase;
-	margin-bottom: 24px;
+	margin-bottom: 12px;
 //	font-family: somefont;
 }
 
-#header .cap 
-{
+#header .title {
+	font-weight: bold;
+	font-size: 23pt;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+#header .cap {
 	font-size: 36pt;
+}
+
+#header .cap2 {
+	font-size: 29pt;
+	font-weight: bold;
 }
 
 #header .contact {
@@ -56,6 +67,10 @@ li
 	text-align: right;
 	position: right;
 	color: #888888;
+}
+
+#header a {
+	color: grey;
 }
 
 hr
@@ -95,7 +110,8 @@ hr
 .resume-list{
 	float:right;
 	width:640px; padding-left: 10px;
-//	border: 1px solid #999999;
+	//border: 1px solid #999999;
+	//line-height: 26pt;
 }
 
 ul {
@@ -108,7 +124,12 @@ ul {
 	font-size: 12pt;
 }
 
-
+/*******************************
+	Skills Category
+********************************/
+#skills-summary-category {	
+	line-height: 14.5pt;	
+}
 
 /*******************************
 	General Entry Categories
@@ -120,6 +141,11 @@ ul {
 //	border: 1px solid #009999;
 	float: right;
 	margin: 12px 0px 0px 0px;
+}
+
+.work-experience-entry a {
+	color: #000a7d;
+	//color: rgb(0, 0, 255);
 }
 
 /* Left-aligned */

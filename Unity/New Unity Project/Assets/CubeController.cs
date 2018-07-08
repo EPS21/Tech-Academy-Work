@@ -18,6 +18,7 @@ public class CubeController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        
         Move = transform.position;
 
         LeftEdge = CamWidthX * -1;

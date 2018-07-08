@@ -1,0 +1,175 @@
+﻿@using ScheduleUsers.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+<div class="row-fluid messageNotifications navbar-fixed-top" align="center" id="newMessagesNotification"></div>
+<br />
+<br />
+
+<div class="row">
+    <div class="col-md-8">
+        <div id="logo" align="center" style="margin-left: 300px" class="row-fluid">
+            <section id="loginForm" align="center" style="margin-left:auto">
+                <img src="~/Images/The-Tech-Academy-Logo.png" />
+
+                @using (Ajax.BeginForm("VerifyUser", "Account", new { ReturnUrl = ViewBag.ReturnUrl },
+                        new AjaxOptions { HttpMethod = "Post", OnSuccess = "OnSuccess", OnFailure = "OnFailure" }
+                        , new { @class = "form-horizontal", role = "form" }))
+                {
+
+                @Html.AntiForgeryToken()
+
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "UserName", onchange = "UserCheck()" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @**********************
+                     * ClockIn/Out Button *
+                     **********************@
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" class="login-button" value="ClockIn" id="clockInOutBtn" name="ButtonType" />                               
+                    </div>
+                    @**********************
+                     *** Login Button *****
+                     **********************@
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" class="login-button" value="Login" id="loginBtn" name="ButtonType" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="checkbox" class="form-group-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+
+                <div id="currentWorkTimeEventHours"></div>                
+                
+				@******************************
+				 *** The Clock in/out Modal ***
+				 ******************************@
+                <div class="modal" tabindex="-1" role="dialog" id="clock-in-modal">
+                    <div class="modal-dialog" role="document" style="width:350px;">
+                        <div class="modal-content">
+                            <div class="modal-header">                                
+                                <h5 class="modal-title" id="clockInOutTitle"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">                                    
+                                    @Html.TextAreaFor(n => n.Note, 5, 50, new { placeholder = "note (optional)", id = "Note" })                                      
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                @**************************************
+                                 *** Confirm Clocking in/out button ***
+                                 **************************************@
+                                <button type="submit" class="btn btn-warning" value="Yes" id="yesBtn" name="ButtonType">Yes</button>                                        
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+            </section>
+        </div>
+
+        <div class="col-md-4">
+            <section id="socialLoginForm">
+                @* @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })*@
+            </section>
+        </div>
+    </div>
+</div>
+
+<script>    
+    function OnSuccess(data) {
+        $(document).ready(function () {            
+            if (data.MyProperty == "Login") {                
+                // redirects to login view page that will show clock in/out events
+                window.location.replace("@Url.Action("LoginRoute", "Account")")           
+            }
+            // Hides the modal and refreshes the page back to Login/Account after Yes is clicked
+            else if (data.MyProperty == "Yes") {
+                $('#clock-in-modal').modal('handleUpdate');
+                $('#clock-in-modal').modal('hide');                
+                window.location.replace("@Url.Action("Login", "Account")");                
+            }
+            // When Clock in/out button is pressed
+            else if (data.ValidUser == true && data.MyProperty == null) {
+                // Show modal if they are a valid user
+                $('#clock-in-modal').modal('handleUpdate');
+                $('#clock-in-modal').modal('show'); 
+            }
+            else { // data.ValidUser is false                
+                $('#clock-in-modal').modal('handleUpdate');
+                $('#clock-in-modal').modal('hide');
+            }
+        });    
+    }
+    function OnFailure(data) {
+        alert('username or pass incorrect');
+        $('#clock-in-modal').modal("handleUpdate");
+        $('#clock-in-modal').modal('hide');
+    };      
+</script>
+
+@******************************************************************************
+    *                       CHECK USER NAME AVAILABILITY
+    ************************************************************************** *@
+<script>
+    function UserCheck() {
+        $.post("@Url.Action("CheckForUserData", "WorkTimeEvent")",
+            {
+                userdata: $("#UserName").val()
+            },
+            function (data) {
+                @* Username is not in the Db, display text box red and keep btn disabled *@
+                if (data.UserVerification == 0) {
+                    $("#clockInOutBtn").prop('disabled', true).html('Clock in');
+                    $("#UserName").css("border-color", "Red");
+                    $("#currentWorkTimeEventHours").html();
+                    $("#newMessagesNotification").html(); // show New Messages notification if any                   
+                }
+                @* Username is in the Db && the current user is not clocked in*@
+                else if (data.UserVerification == 1) {
+                    $("#clockInOutBtn").prop('disabled', false).html('Clock in');
+                    $("#UserName").css("border-color", "Green");
+                    $("#currentWorkTimeEventHours").html(data.ClockInOut);
+                    $("#newMessagesNotification").html(data.newMessagesNotification);
+                    $("#yesBtn").html('Clock In');
+                    $("#clockInOutTitle").html('CLOCK IN');
+                }
+                @* Username is in the Db && doesn't have an end time, change btn to display Clock out *@
+                else { // data == 2
+                    $("#clockInOutBtn").prop('disabled', false).val('Clock out').css("background-color", "#FFB035", "border-color", "#1a2b51");
+                    $("#UserName").css("border-color", "Green");
+                    $("#currentWorkTimeEventHours").html(data.ClockInOut);
+                    $("#newMessagesNotification").html(data.newMessagesNotification); // show New Messages notification if any
+                    $("#yesBtn").html('Clock Out');
+                    $("#clockInOutTitle").html('CLOCK OUT');
+                }
+            });
+    }
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

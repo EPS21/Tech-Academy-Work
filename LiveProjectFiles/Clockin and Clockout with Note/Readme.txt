@@ -1,0 +1,5 @@
+Product Backlog Item 104: Create a confirmation popup modal when clicking clockin/clockout with a notes input box.
+
+Description: When a user hits the Clockin/Clockout button, it just updates the page and displays the clock in or clock out in the model state errors. Create a confirmation popup modal that can also take in a note parameter when a user clocks in or clocks out.
+
+Before the confirmation popup would appear, another check to confirm the username and password was correct was written, and I had to rewrite the original Razor Html.Submit helper method to an Ajax one, and do more logic in the code to deal with multiple submit buttons on a single page but had a different purpose (Login, Clockin/Out, and the final confirmation box). The modal also changes dynamically based on whether the user is clocked in or out. The viewmodel had to be rewritten with different constructors to pass in a note from the confirmation dialog box as well.
