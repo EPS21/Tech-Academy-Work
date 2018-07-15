@@ -1,0 +1,5 @@
+For my brand I've organized my github in a clean manner that is easy to find my projects, and my LinkedIn is all current and clean as well.
+
+My Elevator Pitch:
+
+I'm a recent full-stack web developer graduate looking to break into the industry! I'm proficient in C# and the .NET framework, front end website design with html/css/javascript and its associated libraries, and back end with SQL and querying statements.
