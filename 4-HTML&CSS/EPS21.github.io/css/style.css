@@ -17,7 +17,8 @@ header {
 	background-attachment: scroll;
 	background: url(../img/cover.jpg) no-repeat;
 	/*background-position: center center;*/
-	background-size:cover; /*autoscales image*/		
+	background-size: cover; /*autoscales image*/
+	background-repeat: no-repeat;
 	width: 100%;
 	/*display: block;
 	height: auto;*/
