@@ -11,6 +11,8 @@
         <div>
             Display beach picture - by Eric Sheng<br />
             <br />
+            this is some text<br />
+            <br />
             <asp:Button ID="submitBtn" runat="server" OnClick="submitBtn_Click" Text="Submit" />
             <br />
             <br />
