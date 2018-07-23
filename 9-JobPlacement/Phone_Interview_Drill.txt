@@ -1,0 +1,45 @@
+1. What is your education background?
+I have just graduated from a 20-week long Full-Stack Web development bootcamp, and my formal education is a bachelors degree in International Studies, and I have an Associate of Sciences (AS) in computer engineering where I took Java programming, electrical circuits, and calculus based math and physics courses.
+
+2. Are you currently employed and where?
+No, and want to dive full time into development.
+
+3. Tell me about your current employer (i.e. what do they do, how long they’ve been in
+business, etc.).
+N/A, previous employer was in office supply business. Before then I had done such jobs like IT support, and taught English overseas.
+
+4. Why are you considering leaving your current employer?
+I am not currently employed.
+
+5. If you are not employed, when were you last employed and what is the reason that you are no longer there?
+I was last employed at the OfficeDepot/OfficeMax stores, the reason I'm not employed there as the opportunities for advancement in development didn't exist, thus reached my limit there and I wanted to pursue a different career in software development.
+
+6. What is the most important thing you’re looking for in a company/job?
+The most important thing in a company/job I'm looking for is a company where an employees growth within a company and loyalty are rewarded, where workers are encouraged to keep learning for the betterment of themselves to produce a positive working environment, which I feel makes for the most productive environment.
+
+7. On a Day-to-Day basis at your current/last job, what are your primary responsibilities?
+Assisting customers with their needs and trouble-shooting devices/helping them find an appropriate replacement solution. Keeping the sales floor as professionally presentable as possible, and providing customers with a great experience through exceptional service.
+
+8. Do you work well in a team environment?
+I thrive in a team environment, and in team environments where communication is encouraged so we can better understand our tasks and workloads which make the job in the end easier for all involved.
+
+9. What experience do you have coding in SQL? Python? C#? C++? Java?
+I have done a few individual projects with SQL, and also as a group with .NET MVC LinQ to SQL querying statements. I work primarily in C# and Visual Studio and am comfortable in that environment. I have dabbled with C and C++. Java was my first programming language and have not worked with it lately, but could pick it up again very quickly. I haven't had too much experience with Python, but I do know about it's data capabilities and unconventional syntax and am excited to learn more about it."
+
+10. How many years experience do you have in coding?
+I have a couple years of coding starting with Java and HTML, and have picked up and learned many front and back end web dev languages learning non-stop for the past several months.
+
+11. How many coding projects have you been involved in?
+I have been involved in a full feature website application as part of a Scrum/Agile team recently, have collaborated with friends and colleagues in some open sourse projects, and have made dozens of personal projects ranging in size and scope by myself. (touch on languages if haven't yet already in interview)
+
+12. How well do you handle stress and pressure at work? Please give an example of how you overcame a stressful situation.
+I do quite well in stressful situations, and working as a team we often pulled together to get the job done well. For example, at my last job if someone called in sick or we were shortstaffed, we would all give in extra effort to make sure the store ran as smooth as possible, even if it meant participating in roles we weren't accustomed to (I worked in all aspects of the store even though I wasn't trained for all of them but just had to learn very quickly).
+
+13. What did you like least at your last job?
+I felt as though I had reached my limit for growth at my last job, and I really appreciate an environment where growth is encouraged. Also it did not challenge me intellectually.
+
+14. Are you willing to relocate?
+Yes, if it is a full-time non-contract position (and maybe have some relocation bonus package too to help with the move).
+
+15. Why should I hire you?
+You should hire me because I feel my experience in these technologies fit what you are looking for, and my values align with the values of your company (I would research what the company key values and qualities are, and infuse that into telling them about myself in this way).

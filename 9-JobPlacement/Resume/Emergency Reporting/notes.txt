@@ -1,0 +1,31 @@
+-Their Values: 'Consistent innovation' and 'continous improvement.' Seems to emphasize growth
+
+-Serving firefighters with easy to use tools
+
+-They practice Agile development
+
+
+
+ASP.NET, Javascript, SQL-TSQL (mention projects related to these like library)
+
+
+
+Questions for Bill (if not already answered):
+
+What languages/frameworks do you work with?
+
+whereabouts in bellingham?
+
+
+
+Technical questions during phone interview
+
+"when you enter a url into an address bar, what happens exactly?"
+
+"Difference between an inner join and a left join"
+
+"what kind of projects you work on at the moment"
+
+"what are the advantages and disadvatanges of c#"
+
+
