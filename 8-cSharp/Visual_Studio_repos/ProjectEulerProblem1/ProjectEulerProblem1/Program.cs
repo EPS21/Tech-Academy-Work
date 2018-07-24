@@ -15,7 +15,7 @@ namespace ProjectEulerProblem1
             // Project Euler Problem #1
 
             // the naive, bruteforcing slower way O(n)
-            doEuler1(3, 5, 1000000);
+            doEuler1(3, 5, 1000);
 
             // another way with 3 for loops, more efficent O(?)            
             doEuler2(3, 5, 1000000);            
