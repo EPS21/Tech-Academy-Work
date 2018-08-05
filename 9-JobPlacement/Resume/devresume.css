@@ -30,12 +30,12 @@ li
 
 #header
 {
-	text-align: left;	
+	text-align: left;
 }
 
 #header .name
-{	
-//	letter-spacing: 4pt; 
+{
+//	letter-spacing: 4pt;
 	font-weight: bold;
 	font-size: 28pt;
 	text-transform: uppercase;
@@ -127,8 +127,8 @@ ul {
 /*******************************
 	Skills Category
 ********************************/
-#skills-summary-category {	
-	line-height: 14.5pt;	
+#skills-summary-category {
+	line-height: 14.5pt;
 }
 
 /*******************************
@@ -229,4 +229,3 @@ ul {
 {
 	margin-bottom: 8px;
 }
-

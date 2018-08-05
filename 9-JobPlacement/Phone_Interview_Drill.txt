@@ -1,5 +1,5 @@
 1. What is your education background?
-I have just graduated from a 20-week long Full-Stack Web development bootcamp, and my formal education is a bachelors degree in International Studies, and I have an Associate of Sciences (AS) in computer engineering where I took Java programming, electrical circuits, and calculus based math and physics courses.
+I have just graduated from a Full-Stack Web development bootcamp, and my formal education is a bachelors degree in International Studies, and I have an Associate of Sciences (AS) in computer engineering where I took Java programming, electrical circuits, and calculus based math and physics courses.
 
 2. Are you currently employed and where?
 No, and want to dive full time into development.

@@ -1,0 +1,111 @@
+Can you tell me a little about yourself?
+My name is Eric Sheng, I was born in Northern California but grew up mostly in the PNW and after graduating from University of Washington I spent some time traveling in Asia and teaching English in Taiwan before coming back to the states.
+
+What is your education background?
+I have just graduated from a Full-Stack Web development bootcamp, and my formal education is a bachelors degree in International Studies, and I have an Associate of Sciences (AS) in computer engineering where I took Java programming, electrical circuits, and calculus based math and physics courses.
+
+What are your greatest professional strengths?
+I've been told I'm a pretty hard worker, my past coworkers enjoyed being around me while getting the job done, and that I've handled difficult situations with much grace and professionalism.
+
+What do you consider to be your weaknesses?
+When I was in Taiwan, I had trouble with a clash with communication and teaching styles with some of my co-teachers in my classes, some of them wanted to have a more strict environment but I wanted to make learning more fun with kids. Although it was difficult to concede at first, I had just approached them to talk about our differences and how we could compromise so we could all work better together. Communication was something I wasn't great at in my younger years, but it is something I actively still try to improve to this day.
+
+What is your greatest professional achievement?
+My greatest professional achievement is making a lasting positive impact on people's lives, even if its just one student among a class of many. But I feel my greatest professional achievement has yet to come haha
+
+Tell me about a challenge or conflict you've faced at work, and how you dealt with it.
+See weaknesses question (If they ask both, go back to teacher story).
+
+Where do you see yourself in five years?
+In five years I hope to see myself leading a team of developers, or at least able to impart advice to other programmers on my team as a senior developer.
+
+What are you looking for in a new position?
+A chance to grow as a developer and make a meaningful impact in the team of the software we write.
+
+What is the most important thing you’re looking for in a job?
+The most important thing in a job I'm looking for is a company where an employees growth within a company and loyalty are rewarded, where workers are encouraged to keep learning for the betterment of themselves to produce a positive working environment, which I feel makes for the most productive environment.
+
+Are you currently employed and where?
+No, and want to dive full time into development.
+
+Tell me about your current employer (i.e. what do they do, how long they’ve been in business, etc.).
+I am not currently employed. Previous employer was in office supply business. Before I was a teacher, and did IT work in college.
+
+Why are you considering leaving your current employer?
+I am not currently employed.
+
+What type of work environment do you prefer?
+One where growth is encouraged and management has a genuine concern if there are issues in an employees life (I'm not sure what this question is about exactly?)
+
+14. Why were you fired at ____ job?
+I have never been involuntarily terminated from a job.
+
+15. How do you feel about your last boss?
+My last boss was a great, he was pretty to the point but liked to joke around too sometimes, we got along great. I can show you a glowing recommendation from him as well if you'd like.
+
+On a day-to-day basis at your current/last job, what are your primary responsibilities?
+Talk about prosper IT aka live project instead
+Assisting customers with their needs and trouble-shooting devices/helping them find an appropriate replacement solution. Keeping the sales floor as professionally presentable as possible, and providing customers with a great experience through exceptional service.
+
+17. Do you work well in a team environment?
+I thrive in a team environment, and in team environments where communication is encouraged so we can better understand our tasks and workloads which make the job in the end easier for all involved.
+
+18. Did you get along with co-workers at past jobs?
+Definitely, I was interested in their well being and life outside of work as well, and they enjoyed working with me.
+
+What's a time you disagreed with a decision that was made at work and how did you handle it?
+One time I had disagreed with which duties were whose responsibility, and felt my manager had pushed another departments responsibility onto me. At first, it made me a little angry, but I knew confronting him right there would have been a bad idea. So I had just done them anyways, and the next day had talked with him about who handled those responsibilites, also for my own clarification as well as we had many responsibilities.
+
+How well do you handle stress and pressure at work? Please give an example of how you overcame a stressful situation.
+I do quite well in stressful situations, and working as a team we often pulled together to get the job done well. For example, at my last job if someone called in sick or we were shortstaffed, we would all give in extra effort to make sure the store ran as smooth as possible, even if it meant participating in roles we weren't accustomed to (I worked in all aspects of the store even though I wasn't trained for all of them but just had to learn very quickly).
+
+What did you like least at your last job?
+I felt as though I had reached my limit for growth at my last job, and I really appreciate an environment where growth is encouraged. Also it did not challenge me intellectually.
+
+Why was there a gap in your employment?
+My gap's in employment are when I was pursuing more education.
+
+Can you explain why you changed career paths?
+I felt at the time I wanted to do something more humanitarian, and travelled overseas in a way to 'find myself,' but in the end I am kind of returning to what I've been most passionate about in the beginning, which has been technology.
+
+How do you deal with pressure or stressful situations?
+If there is pressure at work, I just buckle down, accept it, and go into overdrive mode. If everyone working together is in this same situation, it makes it easier knowing we're not in it alone.
+
+What experience do you have coding in SQL? Python? C#? C++? Java?
+I have done a few individual projects with SQL, and also as a group with .NET MVC LinQ to SQL querying statements. I work primarily in C# and Visual Studio and am comfortable in that environment. I have dabbled with C and C++. Java was my first programming language and have not worked with it lately, but could pick it up again very quickly. I haven't had too much experience with Python, but I do know about it's data capabilities am excited to learn more about it."
+
+How many years experience do you have in coding?
+I have several years experience in coding overall, and recently have picked up many more modern technologies and languages.
+
+How many coding projects have you been involved in?
+I have been involved in a full feature website application as part of a Scrum/Agile team recently, have collaborated with friends and colleagues in some open sourse projects, and have made dozens of personal projects ranging in size and scope by myself. (touch on languages if haven't yet already in interview)
+
+How did you hear about the position?
+Through (job listing/friend/contact/recruiter) etc.
+
+What do you know about our company?
+(Whatever I had researched or already known about said company)
+
+Why do you want this job?
+I want this job because I really like what you guys are doing here at (X) and I hope I can contribute as much as I can in improving upon that idea!
+
+What other companies are you interviewing with?
+(I would tell then what other companies I'm talking to/interviewing with. Or is that a bad thing?)
+
+Why should I hire you?
+You should hire me because I feel my experience in these technologies fit what you are looking for, and my values align with the values of your company (I would research what the company key values and qualities are, and infuse that into telling them about myself in this way).
+
+Are you willing to relocate?
+Yes, if it is a full-time non-contract position (and maybe have some relocation bonus package too to help with the move).
+
+What are your salary requirements?
+(Research the pay range, say you've looked it up and ask question back to them if that sounds accurate. Then list your experience with technology x, y, and z, and give some number above the minimum. Mention company name and say how interested you are in growing and adding value with them, so you're not a guy they train and then move on).
+
+What do you think we could do better or differently?
+(Not sure how to answer this one without actually working there? Only other idea is what I see from their website or other info)
+
+You seem to lack experience in programming and haven’t worked elsewhere before – we are looking for someone who has done this before – why should we hire you?
+Well, in a way I have done this before, or something very similar with a similar technology, so I would be confident if there is some difference in how you guys do it, I could adapt and learn that technology as quickly as possible to get the task done.
+
+Do you have any questions for us?
+Yes (I would prepare some questions for said company beforehand from my research, depending on what I am curious about them).

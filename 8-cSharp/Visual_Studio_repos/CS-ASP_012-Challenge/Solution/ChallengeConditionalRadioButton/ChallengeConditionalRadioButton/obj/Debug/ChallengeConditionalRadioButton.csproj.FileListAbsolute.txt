@@ -4,3 +4,10 @@ c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRad
 c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.csprojResolveAssemblyReference.cache
 c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.dll
 c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.pdb
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.dll.config
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.dll
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\bin\ChallengeConditionalRadioButton.pdb
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.csprojResolveAssemblyReference.cache
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.csproj.CoreCompileInputs.cache
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.dll
+C:\Users\erics\Documents\Tech-Academy-Work\8-cSharp\Visual_Studio_repos\CS-ASP_012-Challenge\Solution\ChallengeConditionalRadioButton\ChallengeConditionalRadioButton\obj\Debug\ChallengeConditionalRadioButton.pdb

@@ -6,7 +6,7 @@ public class SphereController : MonoBehaviour
 {
     GameObject CubeReference;
     Vector3 CubeRefPosition;
-    float Speed = 0.09f;
+    float Speed = 0.01f;
     public Vector2 Distance;
 
     public int Timer;
@@ -41,7 +41,7 @@ public class SphereController : MonoBehaviour
         }
         
         // Spawn duplicate enemies every 500 tick
-        if(Timer % 500 == 0)
+        if(Timer % 250 == 0)
         {
             RandomSpawn.x = Random.Range(-6.2f, 6.2f);
             RandomSpawn.y = Random.Range(-3.4f, 3.4f);

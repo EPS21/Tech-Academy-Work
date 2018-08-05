@@ -10,7 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .auto-style2 {
-            color: #FF0000;
+            color: #FF3300;
         }
         p {
         }

@@ -1,0 +1,56 @@
+1.       Write a simple code for finding the most repeated character in given string
+
+2.       write a simple function to check if the Binary Tree is a Binary Search Tree.
+
+3.       Tic tac toe 3x3 solving
+
+4.       Tic tac toe check winner
+
+5.       Write a helper function to return input array data in small chunks by replacing \n with \r\n.
+
+6.       Combination of 3 numbers to match sum in array
+
+7.       Write a function to reverse the order of words in a string ?
+
+8.       Write a function to check if two strings are anagrams or not ?
+
+9.       Most Frequent Element in an array
+ (Gave a solution using two for loops)
+
+11.   Function to print the Factorial of a given number
+
+12.   Most frequent number in an array
+
+13.   Tow Sum Problem
+
+14.   Most frequent element in an array
+
+15.   Check whether the string is unique or not.
+
+16.   Swap numbers without addl variable
+
+17.   consider there is largest array
+
+18.   char[] Input = new char[10000]; {a,b,\n,c,d,e,\n,f,g,\n,h,\n.........}
+
+19.   char[] output = new char[4];
+
+20.   find the length of the longest substring without repeating characters
+
+21.   string s = "abcabcbb"  out put abc
+
+22.   Write a function that parses an input buffer and sends output of the size of output array. We should also return the position of the input buffer and the size used in the output array.
+
+When the input array has '/n' we should return it as '\r ' '\n' as two separate characters.
+
+Do all the validation and check for edge cases.
+
+       23. Design a data structure for Users and Groups in which
+
+                 1.user will have some custom properties
+
+                2.Groups will have custom properties and Users in the group.
+
+                3.Groups can have multiple child groups and multiple parent groups.
+
+                4.When you detect a loop in the parent child relation don't accept that.

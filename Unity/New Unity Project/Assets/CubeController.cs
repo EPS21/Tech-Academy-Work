@@ -14,6 +14,8 @@ public class CubeController : MonoBehaviour
     float BottomEdge;
     float TopEdge;
 
+    float Teleport;
+    public int CoolCounter;
 
 	// Use this for initialization
 	void Start ()
@@ -30,18 +32,37 @@ public class CubeController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        // Teleport/Blink
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (CoolCounter == 0)
+            {
+                Teleport = 2f;
+                CoolCounter = 500;
+            }
+        }
+        else
+        {
+            Teleport = 0;
+        }
+
+        CoolCounter--;
+        if (CoolCounter < 0)
+            CoolCounter = 0;
+
+
         // Movement
         if (Input.GetKey(KeyCode.A))
-            Move.x -= Speed;
-
+            Move.x -= Speed + Teleport;
+        
         if (Input.GetKey(KeyCode.D))
-            Move.x += Speed;
+            Move.x += Speed + Teleport;
 
         if (Input.GetKey(KeyCode.W))
-            Move.y += Speed;
+            Move.y += Speed + Teleport;
 
         if (Input.GetKey(KeyCode.S))
-            Move.y -= Speed;
+            Move.y -= Speed + Teleport;
 
         transform.position = Move;
 	}
