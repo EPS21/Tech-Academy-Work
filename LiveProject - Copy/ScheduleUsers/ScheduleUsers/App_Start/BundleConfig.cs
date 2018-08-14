@@ -13,7 +13,7 @@ namespace ScheduleUsers
                         "~/Scripts/jquery-3.3.1.min.js",
                         "~/Scripts/jquery-ui-1.12.1.min.js",
                         "~/Scripts/jquery.unobtrusive-ajax.js",
-                        "~/Scripts/jquery.unobtrusive-ajax.min.js",
+                        /*"~/Scripts/jquery.unobtrusive-ajax.min.js",*/ // This was the reason it was double posting (calling ajax twice)
                         "~/Scripts/jquery-ui-timepicker-addon.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(

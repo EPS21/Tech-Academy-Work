@@ -31,7 +31,8 @@ namespace MonsterDB.Controllers
         // POST Import
         // The main import page to import a .xls or .xlsx Excel file
         // And add its rows to the monster database 
-        [HttpPost]
+        [HttpPost]         
+        [ValidateAntiForgeryToken]
         public ActionResult Import(HttpPostedFileBase file)
         {
             // Currently only works with .xls files (xlxs if Excel is properly installed?)            

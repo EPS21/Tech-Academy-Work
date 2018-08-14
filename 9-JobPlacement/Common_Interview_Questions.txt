@@ -5,15 +5,15 @@ What is your education background?
 I have just graduated from a Full-Stack Web development bootcamp, and my formal education is a bachelors degree in International Studies, and I have an Associate of Sciences (AS) in computer engineering where I took Java programming, electrical circuits, and calculus based math and physics courses.
 
 What are your greatest professional strengths? (3)
-- Tenacious, thorough (not just hard worker everyone is that)
-- good work ethic, empathetic and relatable
-I've been told I'm a pretty hard worker, my past coworkers enjoyed being around me while getting the job done, and that I've handled difficult situations with much grace and professionalism.
+- Tenacious, will finish issue no matter what (clockin double posting issue after internship)
+- deadline driven work ethic
+- professionalism 
+- being empathetic with the needs of others and being relatable
 
-What do you consider to be your weaknesses?
-When I was in Taiwan, I had trouble with a clash with communication and teaching styles with some of my co-teachers in my classes, some of them wanted to have a more strict environment but I wanted to make learning more fun with kids. Although it was difficult to concede at first, I had just approached them to talk about our differences and how we could compromise so we could all work better together. Communication was something I wasn't great at in my younger years, but it is something I actively still try to improve to this day.
-- was in situation that made me frustrated when additional tasks were suddenly thrust upon me, but working on that (not angry)
+What do you consider to be your weaknesses? (PREFACE ALL WITH "In the past, I was not so good with...)
+- making sure everyone's on same page (communication) (taiwan co-teacher story)
+- was in situation that made me frustrated when additional tasks were suddenly thrust upon me, but working on that (not angry) (officemax story)
 - working on effective use of my time with trello 
-
 
 What is your greatest professional achievement?
 My greatest professional achievement is making a lasting positive impact on people's lives, even if its just one student among a class of many. But I feel my greatest professional achievement has yet to come haha
@@ -49,11 +49,11 @@ I have never been involuntarily terminated from a job.
 My last boss was a great, he was pretty to the point but liked to joke around too sometimes, we got along great. I can show you a glowing recommendation from him as well if you'd like.
 
 On a day-to-day basis at your current/last job, what are your primary responsibilities?
-Talk about prosper IT aka live project instead
+Talk about prosper IT aka live project instead. Participating in standups, meetings for design and implementation process, and completing tickets while estimating how long each ticket should take
 Assisting customers with their needs and trouble-shooting devices/helping them find an appropriate replacement solution. Keeping the sales floor as professionally presentable as possible, and providing customers with a great experience through exceptional service.
 
 17. Do you work well in a team environment?
-I thrive in a team environment, and in team environments where communication is encouraged so we can better understand our tasks and workloads which make the job in the end easier for all involved.
+I thrive in a team environment, love working with my team, collaborating and bouncing ideas, and we can better understand our tasks to make the job in the end easier for all involved.
 
 18. Did you get along with co-workers at past jobs?
 Definitely, I was interested in their well being and life outside of work as well, and they enjoyed working with me.
@@ -83,7 +83,7 @@ How many years experience do you have in coding?
 I have several years experience in coding overall, and recently have picked up many more modern technologies and languages.
 
 How many coding projects have you been involved in?
-I have been involved in a full feature website application as part of a Scrum/Agile team recently, have collaborated with friends and colleagues in some open sourse projects, and have made dozens of personal projects ranging in size and scope by myself. (touch on languages if haven't yet already in interview)
+I have been involved in a full feature website application as part of a Scrum/Agile team recently, have collaborated with friends and colleagues in making some games with external graphics libraries, and have made dozens of personal projects ranging in size and scope by myself. (touch on languages if haven't yet already in interview)
 
 How did you hear about the position?
 Through (job listing/friend/contact/recruiter) etc.
