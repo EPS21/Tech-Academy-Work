@@ -10,19 +10,13 @@ namespace HeroMonsterClasses
         public string Name { get; set; } // prop tab tab
         public int HP { get; set; }
         public int DamageMaximum { get; set; }
-        public bool FirstAttack { get; set; }
-        public int DamageDone { get; set; }
+        public bool FirstAttack { get; set; }        
 
         Random random = new Random();
         public int Attack(Dice dice)
-        {
-            //int damage = random.Next(1, this.DamageMaximum);
-            dice.Sides = this.DamageMaximum;
-            int damage = dice.Roll();
-            DamageDone = damage;
-            return damage;
-
-            //return this.DamageMaximum = random.Next(1, this.DamageMaximum);            
+        {            
+            dice.Sides = this.DamageMaximum;            
+            return dice.Roll();
         }
 
         public void Defend(int damage)

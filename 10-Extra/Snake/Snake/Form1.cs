@@ -221,11 +221,7 @@ namespace Snake
             GenerateFood();
         }
         
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
+        
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             Input.ChangeState(e.KeyCode, true);

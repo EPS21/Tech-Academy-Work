@@ -40,6 +40,7 @@ namespace remove_repeated_letters
                                         
                     sb.Append(key);
                     ht.Add(key, 1);
+                    
                 }
                 else if (!ht.Contains(key) && !alphaArray.Contains(key))
                 {
