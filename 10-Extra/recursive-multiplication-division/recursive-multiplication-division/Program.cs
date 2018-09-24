@@ -10,11 +10,12 @@ namespace recursive_multiplication_division
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine(multiplyRecursive(15, 3));
-            Console.WriteLine(divideRecursive(15, 3));
 
-            Console.Beep();
+            //Console.WriteLine(multiplyRecursive(15, 3));
+            Console.WriteLine(divideRecursive(9, 0));
+            //Console.WriteLine(divide(9, 0));
+
+            //Console.Beep();
             Console.Read();
         }
 
@@ -25,11 +26,55 @@ namespace recursive_multiplication_division
             return x + multiplyRecursive(x, y - 1);
         }
 
-        private static int divideRecursive(int x, int y)
+        private static int divideRecursive(int a, int b)
         {
-            if (x < y) return 0;
-            if (x <= 0) return 0;
-            return 1 + divideRecursive(x - y, y);
+            int answer;
+
+            if (b == 0)
+            {
+                DivideByZeroException e = new DivideByZeroException();
+                Console.Write(e.ToString());
+                return 0;
+            }
+
+            else if (a < 0 && b < 0)
+            {
+                a = Math.Abs(a);
+                b = Math.Abs(b);
+                if (a <= 0) return 0;
+                else if (a < b) return 0;
+                else return answer = (1 + divideRecursive(a - b, b));
+            }
+
+            else if (a < 0 || b < 0)
+            {
+                a = Math.Abs(a);
+                b = Math.Abs(b);
+                if (a <= 0) return 0;
+                else if (a < b) return 0;
+                else
+                {
+                    answer = (1 + divideRecursive(a - b, b));
+                    return answer * -1;
+                }
+            }
+
+            else
+            {
+                if (a <= 0) return 0;
+                else if (a < b) return 0;
+                else return 1 + divideRecursive(a - b, b);
+            }
+        }
+
+        static int doDivide(int a, int b)
+        {
+
+        }
+
+        static int divide(int a, int b)
+        {            
+            return Math.DivRem(a, b, out int x);
         }
         
 
