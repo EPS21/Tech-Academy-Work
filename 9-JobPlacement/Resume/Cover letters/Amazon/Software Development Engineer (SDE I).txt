@@ -1,0 +1,9 @@
+Hello, I'm an experienced software developer, strong in the .NET Stack and related web development technologies. 
+	
+For me, I have many friends who both now and in the past have worked for Amazon before, and have all enjoyed it all from their various teams, and as a Prime customer I'm excited about all the new services Amazon brings to us everyday! With my experience in software and web development, it would be a pleasure to make an impact working with Amazon.
+
+You can see some samples of my work on my github here: https://github.com/EPS21	
+
+Thank you for your time.
+Sincerely,
+Eric Sheng

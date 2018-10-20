@@ -1,0 +1,12 @@
+To the Hiring Manager,
+
+        Hello, I'm an experienced web developer with Java, .NET, and communication skills. This letter is regarding the .Net Developer 
+position at KRG Tech.
+	
+	Having done many ASP.NET applications before, with C# as my language of choice and made many web apps in MVC, along with SQL queries and Entity Framework, I think my skills and experience would be an excellent fit for the job.
+			
+	I know trying to find the right candidate can be difficult. Attached is my resume, and let me know if you think I'd be a good fit. I'd love to work with KRG Tech and I think I could be a helpful addition to your team!
+
+Thank you for your time.
+Sincerely,
+Eric

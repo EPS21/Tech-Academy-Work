@@ -1,0 +1,11 @@
+To the Hiring Manager,
+
+Hello, my name is Eric Sheng and I'm an experienced web developer proficient in Microsoft’s .NET Framework with C#, and general full-stack web development.	
+
+I admire the culture with Infosys and have a strong passion for solving problems for clients and creating solutions that work. Having worked in a small Agile/Scrum team myself creating a web application for a client, there's no greater joy than having deployed the finished product and I hope to have many more opportunities creating solutions with Infosys.
+
+I know trying to find the right candidate can be difficult. Attached is my resume, and let me know if you think I'd be a good fit. I'd love to make a meaningful contribution and I think I could be a helpful addition to your team!
+
+Thank you for your time.
+Sincerely,
+Eric
