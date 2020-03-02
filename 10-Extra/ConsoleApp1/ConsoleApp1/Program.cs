@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     class Program
+
     {   
         static int highestSum(int[] nums)
         {
@@ -21,21 +22,21 @@ namespace ConsoleApp1
                 }
             }
 
-            for (int i = 0; i < nums.Length - 1; i++)
-            {
-                int sum = nums[i];
-                for (int j = 0; j < nums.Length; j++)
-                {
-                    if (i < j)
-                    {
-                        sum += nums[j];
-                        if (sum > highest)
-                        {
-                            highest = sum;
-                        }
-                    }
-                }
-            }
+            //for (int i = 0; i < nums.Length - 1; i++)
+            //{
+            //    int sum = nums[i];
+            //    for (int j = 0; j < nums.Length; j++)
+            //    {
+            //        if (i < j)
+            //        {
+            //            sum += nums[j];
+            //            if (sum > highest)
+            //            {
+            //                highest = sum;
+            //            }
+            //        }
+            //    }
+            //}
 
             return highest;
         }
