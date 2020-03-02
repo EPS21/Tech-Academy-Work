@@ -1,0 +1,23 @@
+x = 1
+MOVECOUNT = 
+
+Turtle.Show()
+Turtle.Speed = 9
+Turtle.PenDown()
+
+r = Math.GetRandomNumber(360)
+Math.GetRandomNumber(-360)
+
+For i = 1 To MOVECOUNT
+  Turtle.Turn(-Math.GetRandomNumber(360))
+  Turtle.Move(Math.GetRandomNumber(100))
+  
+  Turtle.Turn(Math.GetRandomNumber(360))
+  Turtle.Move(Math.GetRandomNumber(100))  
+EndFor
+
+
+
+
+
+

@@ -29,7 +29,7 @@
                     @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "UserName", onchange = "UserCheck()" })
-                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })    
                     </div>
                 </div>
 
@@ -147,41 +147,41 @@
     };      
 </script>
 
-@*<script>
+<script>
     // open up modals based on clockin or clockout and to confirm making new event
-    //function openClockInConfirm(userId) {
-    //    $('#modal-submit').on('click', function (e) {
-    //        e.preventDefault();
-    //        $.ajax({
-    //            'type': 'POST',
-    //            'url': 'WorkTimeEvent/Create'
-    //            'data': {
-    //                id: userId
-    //            },
-    //            'success'
-    //        })
-    //    })
+    function openClockInConfirm(userId) {
+        $('#modal-submit').on('click', function (e) {
+            e.preventDefault();
+            $.ajax({
+                'type': 'POST',
+                'url': 'WorkTimeEvent/Create',
+                'data': {
+                    id: userId
+                },
+                'success'
+            })
+        })
 
-    //};
-    //$.ajax({
-    //    type: "POST",
-    //    url: 'Create/WorkTimeEvent',
-    //    data: data,
-    //    success: success,
-    //    dataType: dataType
-    //});
+    };
+    $.ajax({
+        type: "POST",
+        url: 'Create/WorkTimeEvent',
+        data: data,
+        success: success,
+        dataType: dataType
+    });
 
-    //alert('test');
+    alert('test');
 
-    //if (UserVerification == 1) {
-    //    $('#clock-in-modal').modal('handleUpdate');
-    //    $('#clock-in-modal').modal('show');
-    //}
-    //else if (UserVerification == 2) {
-    //    $('#clock-out-modal').modal('handleUpdate');
-    //    $('#clock-out-modal').modal('show');
-    //}
-</script>*@
+    if (UserVerification == 1) {
+        $('#clock-in-modal').modal('handleUpdate');
+        $('#clock-in-modal').modal('show');
+    }
+    else if (UserVerification == 2) {
+        $('#clock-out-modal').modal('handleUpdate');
+        $('#clock-out-modal').modal('show');
+    }
+</script>
 
 @******************************************************************************
     *                       CHECK USER NAME AVAILABILITY

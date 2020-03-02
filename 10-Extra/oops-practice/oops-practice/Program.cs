@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace oops_practice
 {
@@ -22,13 +24,37 @@ namespace oops_practice
             //int intVal;
 
             MyClass2 a = new MyClass2();
+            MyClass b = new MyClass();
 
-            Console.Write("Enter a number: ");
-            string userInput = Console.ReadLine();
-            //int intVal = Convert.ToInt32(userInput);
+            
 
             //a.myMethod(intVal);
-            a.myMethod(Convert.ToInt32(userInput));
+            //int result = b.myMethod(Convert.ToInt32(userInput));
+
+            // make a while loop just keep asking
+
+            while (true)
+            {
+                Console.Write("Enter a number: ");
+                string userInput = Console.ReadLine();
+                bool ifIntVal = int.TryParse(userInput, out int parsedResult);
+
+                if (ifIntVal)
+                {
+                    Console.WriteLine($"You entered an int of {parsedResult}");
+                }
+
+                string result = b.reverseString(userInput);
+                Console.WriteLine(result);
+
+            }
+
+
+
+
+
+
+
 
             Console.Read();
         }
@@ -56,6 +82,26 @@ namespace oops_practice
             //int result = int.Parse(x);
             int result = Convert.ToInt32(x);
             return result + 5;
+        }
+
+        // there we go reversed a string again
+        public string reverseString(string input)
+        {
+            List<char> x = new List<char>();
+            
+            StringBuilder sb = new StringBuilder();
+
+            foreach (char character in input)
+            {
+                x.Add(character);
+            }
+            
+            for (int i = x.Count - 1; i >= 0; i--)
+            {
+                sb.Append(x[i]);
+            }
+
+            return sb.ToString();
         }
     }
 }
